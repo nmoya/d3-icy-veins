@@ -16,7 +16,17 @@
 (defn get-layout-url
   "Variable layout was deconstructed from a list of a single <a> element."
   [[layout]]
-  (get-in layout [:attrs :href]))
+  (str "https:" (get-in layout [:attrs :href])))
+
+(defn get-layout-src
+  "Variable layout was deconstructed from a list of a single <a> element."
+  [[layout]]
+  (str "https:" (get-in layout [:attrs :src])))
+
+(defn gen-id
+  "Generate an unique ID for a structure"
+  [prefix]
+  (str (gensym prefix)))
 
 (def classes {:demon-hunter {:name "Demon Hunter"}
               :barbarian {:name "Barbarian"}

@@ -1,8 +1,7 @@
 (ns d3-icy-veins.builds
   (:require [camel-snake-kebab.core :as csk]
             [net.cgrand.enlive-html :as html]
-            [d3-icy-veins.utils :as utils]
-            [cheshire.core :as json]))
+            [d3-icy-veins.utils :as utils]))
 
 (defn- create-class-builds-url
   "Given a class name, append builds, convert to kebab notation and append to base-url"
@@ -34,7 +33,8 @@
   [layout]
   {:name (get-build-name (html/select layout [:a]))
    :url (get-build-url (html/select layout [:a]))
-   :tier (get-build-tier (html/select layout [:span.nav_content_block_d3_build_tier]))})
+   :tier (get-build-tier (html/select layout [:span.nav_content_block_d3_build_tier]))
+   :id (utils/gen-id "build_")})
 
 (defn- parse-class-builds
   "From a class name, build the url, fetch the url and process the build list."
