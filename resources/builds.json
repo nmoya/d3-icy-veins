@@ -1,0 +1,241 @@
+{
+  "demon-hunter": [
+    {
+      "name": "Grenade Build with Unhallowed Essence Sets",
+      "url": "//www.icy-veins.com/d3/demon-hunter-unhallowed-essence-grenades-build-patch-2-6-season-11",
+      "tier": "Top Tier"
+    },
+    {
+      "name": "Fan of Knives Build with Legacy of Nightmares Set",
+      "url": "//www.icy-veins.com/d3/demon-hunter-legacy-of-nightmares-fan-of-knives-build-patch-2-6-season-11",
+      "tier": "High Tier"
+    },
+    {
+      "name": "Shadow's Mantle Build with Impale",
+      "url": "//www.icy-veins.com/d3/demon-hunter-shadow-impale-build-patch-2-6-season-11",
+      "tier": "High Tier"
+    },
+    {
+      "name": "Fan of Knives Build with Shadow's Mantle and Marauder Sets",
+      "url": "//www.icy-veins.com/d3/demon-hunter-shadow-marauder-fan-of-knives-build-patch-2-6-season-11",
+      "tier": "High Tier"
+    },
+    {
+      "name": "Sentry and Cluster Arrow Build with Marauder Set",
+      "url": "//www.icy-veins.com/d3/demon-hunter-marauder-sentry-cluster-arrow-build-patch-2-6-season-11",
+      "tier": "High Tier"
+    },
+    {
+      "name": "Multishot Build with Unhallowed Essence Set",
+      "url": "//www.icy-veins.com/d3/demon-hunter-unhallowed-essence-multishot-build-patch-2-6-season-11",
+      "tier": "Mid Tier"
+    },
+    {
+      "name": "Rain of Vengeance Build with Natalya's Set",
+      "url": "//www.icy-veins.com/d3/demon-hunter-natalya-rain-of-vengeance-build-patch-2-6-season-11",
+      "tier": "Low Tier"
+    }
+  ],
+  "barbarian": [
+    {
+      "name": "Support Build with Raekor Set",
+      "url": "//www.icy-veins.com/d3/barbarian-support-build-with-raekor-patch-2-6-season-11",
+      "tier": "Top Tier"
+    },
+    {
+      "name": "Whirlwind Build with Wrath of the Wastes and Bul-Kathos's Oath Sets",
+      "url": "//www.icy-veins.com/d3/barbarian-whirlwind-build-with-wrath-of-the-wastes-patch-2-6-season-11",
+      "tier": "Top Tier"
+    },
+    {
+      "name": "Leap/Earthquake Build with Might of the Earth Set",
+      "url": "//www.icy-veins.com/d3/barbarian-leap-earthquake-build-with-might-of-the-earth-patch-2-6-season-11",
+      "tier": "High Tier"
+    },
+    {
+      "name": "Furious Charge Build with Raekor Set",
+      "url": "//www.icy-veins.com/d3/barbarian-furious-charge-build-with-raekor-and-immortal-king-patch-2-6-season-11",
+      "tier": "High Tier"
+    },
+    {
+      "name": "Frenzy/Thorns Build with Legacy of Nightmares Set",
+      "url": "//www.icy-veins.com/d3/barbarian-frenzy-thorns-build-with-legacy-of-nightmares-set-patch-2-6-season-11",
+      "tier": "Mid Tier"
+    },
+    {
+      "name": "Hammer of the Ancients Build with Immortal King Set",
+      "url": "//www.icy-veins.com/d3/barbarian-hota-build-with-immortal-king-patch-2-6-season-11",
+      "tier": "Low Tier"
+    },
+    {
+      "name": "Rend Build with Immortal King and Wrath of the Wastes Sets",
+      "url": "//www.icy-veins.com/d3/barbarian-rend-build-with-immortal-king-and-wrath-of-the-wastes-patch-2-6-season-11",
+      "tier": "Low Tier"
+    }
+  ],
+  "witch-doctor": [
+    {
+      "name": "Spirit Barrage Build with LoN Set",
+      "url": "//www.icy-veins.com/d3/witch-doctor-legacy-of-nightmares-spirit-barrage-build-patch-2-6-season-11",
+      "tier": "Top Tier"
+    },
+    {
+      "name": "Firebats Build with Spirit of Arachyr Set",
+      "url": "//www.icy-veins.com/d3/witch-doctor-arachyr-firebats-build-patch-2-6-season-11",
+      "tier": "High Tier"
+    },
+    {
+      "name": "Gargantuan Build with Helltooth Set",
+      "url": "//www.icy-veins.com/d3/witch-doctor-helltooth-gargantuan-build-patch-2-6-season-11",
+      "tier": "High Tier"
+    },
+    {
+      "name": "Soul Harvest Build with Jade Harvester Set",
+      "url": "//www.icy-veins.com/d3/witch-doctor-jade-harvester-build-with-soul-harvest-patch-2-6-season-11",
+      "tier": "High Tier"
+    },
+    {
+      "name": "Zombie Bears Build with Helltooth Set",
+      "url": "//www.icy-veins.com/d3/witch-doctor-helltooth-zombie-bears-build-patch-2-6-season-11",
+      "tier": "Mid Tier"
+    },
+    {
+      "name": "Acid Cloud Build with Helltooth Set",
+      "url": "//www.icy-veins.com/d3/witch-doctor-helltooth-acid-cloud-build-patch-2-6-season-11",
+      "tier": "Mid Tier"
+    },
+    {
+      "name": "Carnevil Poison Dart Build with Zunimassa Set",
+      "url": "//www.icy-veins.com/d3/witch-doctor-zuni-carnevil-poison-dart-build-patch-2-6-season-11",
+      "tier": "Mid Tier"
+    }
+  ],
+  "crusader": [
+    {
+      "name": "Blessed Hammer Build with Seeker of the Light Set",
+      "url": "//www.icy-veins.com/d3/crusader-hammerdin-build-with-blessed-hammer-and-seeker-of-the-light-set-patch-2-6-season-11",
+      "tier": "Top Tier"
+    },
+    {
+      "name": "Bombardment Build with Legacy of Nightmares Set",
+      "url": "//www.icy-veins.com/d3/crusader-legacy-of-nightmares-bombardment-build-patch-2-6-season-11",
+      "tier": "High Tier"
+    },
+    {
+      "name": "Sweep Attack Build with Roland's Set",
+      "url": "//www.icy-veins.com/d3/crusader-rolands-sweep-attack-build-patch-2-6-season-11",
+      "tier": "High Tier"
+    },
+    {
+      "name": "Bombardment Build with Akkhan Set",
+      "url": "//www.icy-veins.com/d3/crusader-akkhan-bombardment-build-patch-2-6-season-11",
+      "tier": "Mid Tier"
+    },
+    {
+      "name": "Thorns Build with Invoker Set",
+      "url": "//www.icy-veins.com/d3/crusader-invoker-thorns-build-patch-2-6-season-11",
+      "tier": "Mid Tier"
+    },
+    {
+      "name": "Condemn Build with Akkhan Set",
+      "url": "//www.icy-veins.com/d3/crusader-akkhan-condemn-build-patch-2-6-season-11",
+      "tier": "Low Tier"
+    }
+  ],
+  "monk": [
+    {
+      "name": "Crippling Wave Build with Raiment and Shenlong Sets",
+      "url": "//www.icy-veins.com/d3/monk-raiment-shenlong-generator-build-with-crippling-wave-patch-2-6-season-11",
+      "tier": "Top Tier"
+    },
+    {
+      "name": "Support Build with Inna's Mantra Set",
+      "url": "//www.icy-veins.com/d3/monk-support-build-with-inna-patch-2-6-season-11",
+      "tier": "Top Tier"
+    },
+    {
+      "name": "Exploding Palm and Mystic Ally Build with Inna's Mantra Set",
+      "url": "//www.icy-veins.com/d3/monk-inna-exploding-palm-and-mystic-ally-build-patch-2-6-season-11",
+      "tier": "High Tier"
+    },
+    {
+      "name": "Lashing Tail Kick Build with Sunwuko or LoN Sets",
+      "url": "//www.icy-veins.com/d3/monk-legacy-of-nightmares-lashing-tail-kick-build-patch-2-6-season-11",
+      "tier": "High Tier"
+    },
+    {
+      "name": "Seven-Sided Strike Build with Uliana's Strategem Set",
+      "url": "//www.icy-veins.com/d3/monk-uliana-seven-sided-strike-build-with-exploding-palm-patch-2-6-season-11",
+      "tier": "Mid Tier"
+    },
+    {
+      "name": "Wave of Light Build with Sunwuko Set",
+      "url": "//www.icy-veins.com/d3/monk-sunwuko-wave-of-light-build-patch-2-6-season-11",
+      "tier": "Mid Tier"
+    }
+  ],
+  "wizard": [
+    {
+      "name": "Manald Lightning Archon Build with Vyr and Tal Rasha Sets",
+      "url": "//www.icy-veins.com/d3/wizard-lightning-archon-build-with-manald-heal-and-tal-rasha-vyr-sets-patch-2-6-season-11",
+      "tier": "Top Tier"
+    },
+    {
+      "name": "Archon Build with Firebird Set",
+      "url": "//www.icy-veins.com/d3/wizard-firebird-archon-build-patch-2-6-season-11",
+      "tier": "High Tier"
+    },
+    {
+      "name": "Arcane Torrent Build with Manald and Tal Rasha Set",
+      "url": "//www.icy-veins.com/d3/wizard-arcane-torrent-build-with-manald-ring-and-tal-rasha-set-patch-2-6-season-11",
+      "tier": "Mid Tier"
+    },
+    {
+      "name": "Arcane Orbit Build with DMO Set",
+      "url": "//www.icy-veins.com/d3/wizard-dmo-arcane-orbit-build-patch-2-6-season-11",
+      "tier": "Mid Tier"
+    },
+    {
+      "name": "Archon Build with Vyr Set",
+      "url": "//www.icy-veins.com/d3/wizard-vyr-archon-build-patch-2-6-season-11",
+      "tier": "Low Tier"
+    },
+    {
+      "name": "Explosive Blast Farming Build with Tal Rasha Set",
+      "url": "//www.icy-veins.com/d3/wizard-explosive-blast-farming-build-with-tal-rasha-set-patch-2-6-season-11",
+      "tier": "Low Tier"
+    }
+  ],
+  "necromancer": [
+    {
+      "name": "Command Skeletons Build with Inarius Set",
+      "url": "//www.icy-veins.com/d3/necromancer-command-skeletons-build-with-inarius-set-patch-2-6-season-11",
+      "tier": "Top Tier"
+    },
+    {
+      "name": "Corpse Lance Build with Trag'Oul Set",
+      "url": "//www.icy-veins.com/d3/necromancer-corpse-lance-build-with-trag-oul-set-patch-2-6-season-11",
+      "tier": "Top Tier"
+    },
+    {
+      "name": "Bone Storm Build with Inarius Set",
+      "url": "//www.icy-veins.com/d3/necromancer-bone-storm-build-with-inarius-set-patch-2-6-season-11",
+      "tier": "High Tier"
+    },
+    {
+      "name": "Skeletal Mages Build with Rathma and Jesseth Sets",
+      "url": "//www.icy-veins.com/d3/necromancer-skeletal-mages-build-with-rathma-and-jesseth-sets-patch-2-6-season-11",
+      "tier": "High Tier"
+    },
+    {
+      "name": "Corpse Explosion Build with Inarius Set",
+      "url": "//www.icy-veins.com/d3/necromancer-corpse-explosion-build-with-inarius-set-patch-2-6-season-11",
+      "tier": "Mid Tier"
+    },
+    {
+      "name": "Skeletal Mages Build With Trag'Oul and Jesseth Sets",
+      "url": "//www.icy-veins.com/d3/necromancer-skeletal-mages-build-with-trag-oul-and-jesseth-sets-patch-2-6-season-11",
+      "tier": "Mid Tier"
+    }
+  ]
+}
