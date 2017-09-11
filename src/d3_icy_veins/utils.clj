@@ -33,13 +33,13 @@
   []
   (-> "./project.clj" slurp read-string (nth 2)))
 
-(def classes {:demon-hunter {:name "Demon Hunter"}
-              :barbarian {:name "Barbarian"}
-              :witch-doctor {:name "Witch Doctor"}
-              :crusader {:name "Crusader"}
-              :monk {:name "Monk"}
-              :wizard {:name "Wizard"}
-              :necromancer {:name "Necromancer"}})
+(def d3-classes {:demon-hunter {:name "Demon Hunter"}
+                 :barbarian {:name "Barbarian"}
+                 :witch-doctor {:name "Witch Doctor"}
+                 :crusader {:name "Crusader"}
+                 :monk {:name "Monk"}
+                 :wizard {:name "Wizard"}
+                 :necromancer {:name "Necromancer"}})
 
 (defn save-map-to-edn [filepath content]
   "Receives a file name and a map, prints the map into a string and saves the string in filepath"
