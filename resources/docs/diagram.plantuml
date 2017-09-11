@@ -1,0 +1,50 @@
+@startuml
+
+title Data overview
+
+class Environment {
+  version: String
+  dump-date: String
+}
+
+class Builds {
+  demon-hunter: BuildDetails[0..n]
+  barbarian: BuildDetails[0..n]
+  witch-doctor: BuildDetails[0..n]
+  crusader: BuildDetails[0..n]
+  wizard: BuildDetails[0..n]
+  monk: BuildDetails[0..n]
+  necromancer: BuildDetails[0..n]
+}
+
+class BuildDetails {
+  id: String
+  name: String
+  d3-class-name: String
+  url: String
+  tier: String
+  skills: BuildSkills
+}
+
+class BuildSkills {
+  active: BuildSkill[6..6]
+  passive: BuildSkill[4..4]
+}
+
+class BuildSkill {
+  id: String
+  button: String
+  skill: Image
+}
+
+class Image {
+  name: String
+  image: String
+}
+
+Builds -up-* BuildDetails
+BuildDetails -up-* BuildSkills
+BuildSkills -up-* BuildSkill
+BuildSkill -* Image
+
+@enduml
