@@ -28,6 +28,11 @@
   [prefix]
   (str (gensym prefix)))
 
+(defn get-project-version
+  "Reads project.clj and retrieves the current version"
+  []
+  (-> "./project.clj" slurp read-string (nth 2)))
+
 (def classes {:demon-hunter {:name "Demon Hunter"}
               :barbarian {:name "Barbarian"}
               :witch-doctor {:name "Witch Doctor"}
