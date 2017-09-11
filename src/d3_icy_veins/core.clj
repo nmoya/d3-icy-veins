@@ -1,7 +1,13 @@
 (ns d3-icy-veins.core
+  (:require [d3-icy-veins.builds :as builds])
   (:gen-class))
 
-(defn -main
-  "I don't do a whole lot ... yet."
+(defn main
+  "Entry point of the dumper"
   [& args]
-  (println "Hello, World!"))
+  (print "Arguments: ")
+  (println args)
+  (builds/get-all-builds true))
+
+
+; (main)
