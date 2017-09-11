@@ -2,6 +2,7 @@
   (:require [camel-snake-kebab.core :as csk]
             [net.cgrand.enlive-html :as html]
             [cheshire.core :as json]))
+(use '[clojure.pprint :only (pprint)])
 
 (def base-url "https://www.icy-veins.com/d3/")
 
@@ -43,10 +44,22 @@
 
 (defn save-map-to-edn [filepath content]
   "Receives a file name and a map, prints the map into a string and saves the string in filepath"
-  (clojure.pprint/pprint (str "Saved " filepath))
+  (println (str "Saved " filepath))
   (spit filepath (with-out-str (clojure.pprint/pprint content))))
 
 (defn save-map-to-json [filepath content]
   "Receives a file name and a map, prints the map into a string and saves the string in filepath"
-  (clojure.pprint/pprint (str "Saved " filepath))
+  (println (str "Saved " filepath))
+  (spit filepath (json/generate-string content {:pretty true})))
+
+(defn save-map-to-json-minified [filepath content]
+  "Receives a file name and a map, prints the map into a string and saves the string in filepath"
+  (println (str "Saved " filepath))
   (spit filepath (json/generate-string content)))
+
+(defn save-all
+  "Saves content in edn, json, and minified json"
+  [edn-path json-path json-min-path content]
+  (save-map-to-edn edn-path content)
+  (save-map-to-json json-path content)
+  (save-map-to-json-minified json-min-path content))
