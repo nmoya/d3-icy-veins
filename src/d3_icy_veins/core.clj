@@ -1,5 +1,6 @@
 (ns d3-icy-veins.core
-  (:require [d3-icy-veins.builds :as builds])
+  (:require [d3-icy-veins.builds :as builds]
+            [d3-icy-veins.environment :as env])
   (:gen-class))
 
 (defn main
@@ -7,7 +8,7 @@
   [& args]
   (print "Arguments: ")
   (println args)
-  (builds/get-all-builds true))
-
+  (env/get-env)
+  (builds/get-all true))
 
 ; (main)

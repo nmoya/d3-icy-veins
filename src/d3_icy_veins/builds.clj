@@ -105,4 +105,4 @@
       (utils/save-map-to-json-minified "resources/builds.min.json" builds-map))
     builds-map)))
 
-(get-all true)
+; (get-all true)
