@@ -1,232 +1,3597 @@
 {:demon-hunter
- ({:name "Grenade Build with Unhallowed Essence Sets",
+ ({:id "build_11180",
+   :name "Grenade Build with Unhallowed Essence Sets",
    :url
    "https://www.icy-veins.com/d3/demon-hunter-unhallowed-essence-grenades-build-patch-2-6-season-11",
+   :d3-class-name "Demon Hunter",
    :tier "Top Tier",
-   :id "build_26340"}
-  {:name "Fan of Knives Build with Legacy of Nightmares Set",
+   :skills
+   {:active
+    ({:id "active-skill_11181",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Grenade"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Cluster Grenades"}}
+     {:id "active-skill_11182",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Fan of Knives"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Bladed Armor"}}
+     {:id "active-skill_11183",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_demonhunter_vengeance_large.png",
+       :name "Vengeance"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Dark Heart"}}
+     {:id "active-skill_11184",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/demonhunter_vault_large.png",
+       :name "Vault"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Tumble"}}
+     {:id "active-skill_11185",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_demonhunter_companion_large.png",
+       :name "Companion"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Boar Companion"}}
+     {:id "active-skill_11186",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/demonhunter_preparation_large.png",
+       :name "Preparation"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Invigoration"}}),
+    :passive
+    ({:id "passive-skill_11187",
+      :name "Grenadier",
+      :image
+      "https://static.icy-veins.com/images/d3/demonhunter_passive_grenadier_large.png"}
+     {:id "passive-skill_11188",
+      :name "Numbing Traps",
+      :image
+      "https://static.icy-veins.com/images/d3/demonhunter_passive_numbingtraps_large.png"}
+     {:id "passive-skill_11189",
+      :name "Cull the Weak",
+      :image
+      "https://static.icy-veins.com/images/d3/demonhunter_passive_culltheweak_large.png"}
+     {:id "passive-skill_11190",
+      :name "Awareness",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_demonhunter_passive_awareness_large.png"})},
+   :gear ()}
+  {:id "build_11191",
+   :name "Fan of Knives Build with Legacy of Nightmares Set",
    :url
    "https://www.icy-veins.com/d3/demon-hunter-legacy-of-nightmares-fan-of-knives-build-patch-2-6-season-11",
+   :d3-class-name "Demon Hunter",
    :tier "High Tier",
-   :id "build_26341"}
-  {:name "Shadow's Mantle Build with Impale",
+   :skills
+   {:active
+    ({:id "active-skill_11192",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Evasive Fire"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Focus"}}
+     {:id "active-skill_11193",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Strafe"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Drifting Shadow"}}
+     {:id "active-skill_11194",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_demonhunter_vengeance_large.png",
+       :name "Vengeance"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Dark Heart"}}
+     {:id "active-skill_11195",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/demonhunter_smokescreen_large.png",
+       :name "Smoke Screen"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Special Recipe"}}
+     {:id "active-skill_11196",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/demonhunter_fanofknives_large.png",
+       :name "Fan of Knives"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Pinpoint Accuracy"}}
+     {:id "active-skill_11197",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_demonhunter_companion_large.png",
+       :name "Companion"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Wolf Companion"}}),
+    :passive
+    ({:id "passive-skill_11198",
+      :name "Awareness",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_demonhunter_passive_awareness_large.png"}
+     {:id "passive-skill_11199",
+      :name "Cull the Weak",
+      :image
+      "https://static.icy-veins.com/images/d3/demonhunter_passive_culltheweak_large.png"}
+     {:id "passive-skill_11200",
+      :name "Ambush",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_demonhunter_passive_ambush_large.png"}
+     {:id "passive-skill_11201",
+      :name "Tactical Advantage",
+      :image
+      "https://static.icy-veins.com/images/d3/demonhunter_passive_tacticaladvantage_large.png"})},
+   :gear ()}
+  {:id "build_11202",
+   :name "Shadow's Mantle Build with Impale",
    :url
    "https://www.icy-veins.com/d3/demon-hunter-shadow-impale-build-patch-2-6-season-11",
+   :d3-class-name "Demon Hunter",
    :tier "High Tier",
-   :id "build_26342"}
-  {:name "Fan of Knives Build with Shadow's Mantle and Marauder Sets",
+   :skills
+   {:active
+    ({:id "active-skill_11203",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Impale"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Ricochet"}}
+     {:id "active-skill_11204",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Companion"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Wolf Companion"}}
+     {:id "active-skill_11205",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_demonhunter_vengeance_large.png",
+       :name "Vengeance"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Dark Heart"}}
+     {:id "active-skill_11206",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/demonhunter_fanofknives_large.png",
+       :name "Fan of Knives"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Bladed Armor"}}
+     {:id "active-skill_11207",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/demonhunter_vault_large.png",
+       :name "Vault"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Rattling Roll"}}
+     {:id "active-skill_11208",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/demonhunter_shadowpower_large.png",
+       :name "Shadow Power"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Gloom"}}),
+    :passive
+    ({:id "passive-skill_11209",
+      :name "Ambush",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_demonhunter_passive_ambush_large.png"}
+     {:id "passive-skill_11210",
+      :name "Numbing Traps",
+      :image
+      "https://static.icy-veins.com/images/d3/demonhunter_passive_numbingtraps_large.png"}
+     {:id "passive-skill_11211",
+      :name "Cull the Weak",
+      :image
+      "https://static.icy-veins.com/images/d3/demonhunter_passive_culltheweak_large.png"}
+     {:id "passive-skill_11212",
+      :name "Awareness",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_demonhunter_passive_awareness_large.png"})},
+   :gear ()}
+  {:id "build_11213",
+   :name "Fan of Knives Build with Shadow's Mantle and Marauder Sets",
    :url
    "https://www.icy-veins.com/d3/demon-hunter-shadow-marauder-fan-of-knives-build-patch-2-6-season-11",
+   :d3-class-name "Demon Hunter",
    :tier "High Tier",
-   :id "build_26343"}
-  {:name "Sentry and Cluster Arrow Build with Marauder Set",
+   :skills
+   {:active
+    ({:id "active-skill_11214",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Bolas"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Freezing Strike"}}
+     {:id "active-skill_11215",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Fan of Knives"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Pinpoint Accuracy"}}
+     {:id "active-skill_11216",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_demonhunter_vengeance_large.png",
+       :name "Vengeance"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Dark Heart"}}
+     {:id "active-skill_11217",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/demonhunter_smokescreen_large.png",
+       :name "Smoke Screen"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Vanishing Powder"}}
+     {:id "active-skill_11218",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_demonhunter_companion_large.png",
+       :name "Companion"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Wolf Companion"}}
+     {:id "active-skill_11219",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/demonhunter_markedfordeath_large.png",
+       :name "Marked for Death"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Valley of Death"}}),
+    :passive
+    ({:id "passive-skill_11220",
+      :name "Ambush",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_demonhunter_passive_ambush_large.png"}
+     {:id "passive-skill_11221",
+      :name "Numbing Traps",
+      :image
+      "https://static.icy-veins.com/images/d3/demonhunter_passive_numbingtraps_large.png"}
+     {:id "passive-skill_11222",
+      :name "Cull the Weak",
+      :image
+      "https://static.icy-veins.com/images/d3/demonhunter_passive_culltheweak_large.png"}
+     {:id "passive-skill_11223",
+      :name "Sharpshooter",
+      :image
+      "https://static.icy-veins.com/images/d3/demonhunter_passive_sharpshooter_large.png"})},
+   :gear ()}
+  {:id "build_11224",
+   :name "Sentry and Cluster Arrow Build with Marauder Set",
    :url
    "https://www.icy-veins.com/d3/demon-hunter-marauder-sentry-cluster-arrow-build-patch-2-6-season-11",
+   :d3-class-name "Demon Hunter",
    :tier "High Tier",
-   :id "build_26344"}
-  {:name "Multishot Build with Unhallowed Essence Set",
+   :skills
+   {:active
+    ({:id "active-skill_11225",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Evasive Fire"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Hardened"}}
+     {:id "active-skill_11226",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Cluster Arrow"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Cluster Bombs"}}
+     {:id "active-skill_11227",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_demonhunter_vengeance_large.png",
+       :name "Vengeance"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Seethe"}}
+     {:id "active-skill_11228",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/demonhunter_vault_large.png",
+       :name "Vault"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Tumble"}}
+     {:id "active-skill_11229",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_demonhunter_companion_large.png",
+       :name "Companion"},
+      :rune {:image "https:", :name ""}}
+     {:id "active-skill_11230",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/demonhunter_sentry_large.png",
+       :name "Sentry"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Polar Station"}}),
+    :passive
+    ({:id "passive-skill_11231",
+      :name "Steady Aim",
+      :image
+      "https://static.icy-veins.com/images/d3/demonhunter_passive_steadyaim_large.png"}
+     {:id "passive-skill_11232",
+      :name "Custom Engineering",
+      :image
+      "https://static.icy-veins.com/images/d3/demonhunter_passive_customengineering_large.png"}
+     {:id "passive-skill_11233",
+      :name "Cull the Weak",
+      :image
+      "https://static.icy-veins.com/images/d3/demonhunter_passive_culltheweak_large.png"}
+     {:id "passive-skill_11234",
+      :name "Grenadier",
+      :image
+      "https://static.icy-veins.com/images/d3/demonhunter_passive_grenadier_large.png"})},
+   :gear ()}
+  {:id "build_11235",
+   :name "Multishot Build with Unhallowed Essence Set",
    :url
    "https://www.icy-veins.com/d3/demon-hunter-unhallowed-essence-multishot-build-patch-2-6-season-11",
+   :d3-class-name "Demon Hunter",
    :tier "Mid Tier",
-   :id "build_26345"}
-  {:name "Rain of Vengeance Build with Natalya's Set",
+   :skills
+   {:active
+    ({:id "active-skill_11236",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Evasive Fire"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Focus"}}
+     {:id "active-skill_11237",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Multishot"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Arsenal"}}
+     {:id "active-skill_11238",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/demonhunter_preparation_large.png",
+       :name "Preparation"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Invigoration"}}
+     {:id "active-skill_11239",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_demonhunter_vengeance_large.png",
+       :name "Vengeance"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Seethe"}}
+     {:id "active-skill_11240",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/demonhunter_vault_large.png",
+       :name "Vault"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Tumble"}}
+     {:id "active-skill_11241",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_demonhunter_companion_large.png",
+       :name "Companion"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Wolf Companion"}}),
+    :passive
+    ({:id "passive-skill_11242",
+      :name "Ambush",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_demonhunter_passive_ambush_large.png"}
+     {:id "passive-skill_11243",
+      :name "Thrill of the Hunt",
+      :image
+      "https://static.icy-veins.com/images/d3/demonhunter_passive_thrillofthehunt_large.png"}
+     {:id "passive-skill_11244",
+      :name "Cull the Weak",
+      :image
+      "https://static.icy-veins.com/images/d3/demonhunter_passive_culltheweak_large.png"}
+     {:id "passive-skill_11245",
+      :name "Ballistics",
+      :image
+      "https://static.icy-veins.com/images/d3/demonhunter_passive_ballistics_large.png"})},
+   :gear ()}
+  {:id "build_11246",
+   :name "Rain of Vengeance Build with Natalya's Set",
    :url
    "https://www.icy-veins.com/d3/demon-hunter-natalya-rain-of-vengeance-build-patch-2-6-season-11",
+   :d3-class-name "Demon Hunter",
    :tier "Low Tier",
-   :id "build_26346"}),
+   :skills
+   {:active
+    ({:id "active-skill_11247",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Entangling Shot"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Justice is Served"}}
+     {:id "active-skill_11248",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Strafe"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Drifting Shadow"}}
+     {:id "active-skill_11249",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/demonhunter_rainofvengeance_large.png",
+       :name "Rain of Vengeance"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Anathema"}}
+     {:id "active-skill_11250",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/demonhunter_preparation_large.png",
+       :name "Preparation"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Focused Mind"}}
+     {:id "active-skill_11251",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/demonhunter_smokescreen_large.png",
+       :name "Smoke Screen"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Special Recipe"}}
+     {:id "active-skill_11252",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_demonhunter_vengeance_large.png",
+       :name "Vengeance"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Dark Heart"}}),
+    :passive
+    ({:id "passive-skill_11253",
+      :name "Grenadier",
+      :image
+      "https://static.icy-veins.com/images/d3/demonhunter_passive_grenadier_large.png"}
+     {:id "passive-skill_11254",
+      :name "Tactical Advantage",
+      :image
+      "https://static.icy-veins.com/images/d3/demonhunter_passive_tacticaladvantage_large.png"}
+     {:id "passive-skill_11255",
+      :name "Cull the Weak",
+      :image
+      "https://static.icy-veins.com/images/d3/demonhunter_passive_culltheweak_large.png"}
+     {:id "passive-skill_11256",
+      :name "Night Stalker",
+      :image
+      "https://static.icy-veins.com/images/d3/demonhunter_passive_nightstalker_large.png"})},
+   :gear ()}),
  :barbarian
- ({:name "Support Build with Raekor Set",
+ ({:id "build_11257",
+   :name "Support Build with Raekor Set",
    :url
    "https://www.icy-veins.com/d3/barbarian-support-build-with-raekor-patch-2-6-season-11",
+   :d3-class-name "Barbarian",
    :tier "Top Tier",
-   :id "build_26347"}
-  {:name "Whirlwind Build with Wrath of the Wastes Set",
+   :skills
+   {:active
+    ({:id "active-skill_11258",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Furious Charge"},
+      :rune {:image "https:", :name ""}}
+     {:id "active-skill_11259",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Ground Stomp"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Jarring Slam"}}
+     {:id "active-skill_11260",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_barbarian_ancientspear_large.png",
+       :name "Ancient Spear"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Rage Flip"}}
+     {:id "active-skill_11261",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/barbarian_threateningshout_large.png",
+       :name "Threatening Shout"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Falter"}}
+     {:id "active-skill_11262",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/barbarian_ignorepain_large.png",
+       :name "Ignore Pain"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Mob Rule"}}
+     {:id "active-skill_11263",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_barbarian_warcry_v2_large.png",
+       :name "War Cry"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Veteran's Warning"}}),
+    :passive
+    ({:id "passive-skill_11264",
+      :name "Sword and Board",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_barbarian_passive_swordandboard_large.png"}
+     {:id "passive-skill_11265",
+      :name "Pound of Flesh",
+      :image
+      "https://static.icy-veins.com/images/d3/barbarian_passive_poundofflesh_large.png"}
+     {:id "passive-skill_11266",
+      :name "Inspiring Presence",
+      :image
+      "https://static.icy-veins.com/images/d3/barbarian_passive_inspiringpresence_large.png"}
+     {:id "passive-skill_11267",
+      :name "Nerves of Steel",
+      :image
+      "https://static.icy-veins.com/images/d3/barbarian_passive_nervesofsteel_large.png"})},
+   :gear ()}
+  {:id "build_11268",
+   :name "Whirlwind Build with Wrath of the Wastes Set",
    :url
    "https://www.icy-veins.com/d3/barbarian-whirlwind-build-with-wrath-of-the-wastes-patch-2-6-season-11",
+   :d3-class-name "Barbarian",
    :tier "Top Tier",
-   :id "build_26348"}
-  {:name "Leap/Earthquake Build with Might of the Earth Set",
+   :skills
+   {:active
+    ({:id "active-skill_11269",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Ground Stomp"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Wrenching Smash"}}
+     {:id "active-skill_11270",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Whirlwind"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Wind Shear"}}
+     {:id "active-skill_11271",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/barbarian_ignorepain_large.png",
+       :name "Ignore Pain"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Ignorance is Bliss"}}
+     {:id "active-skill_11272",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/barbarian_wrathoftheberserker_large.png",
+       :name "Wrath of the Berserker"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Insanity"}}
+     {:id "active-skill_11273",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/barbarian_battlerage_large.png",
+       :name "Battle Rage"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Swords to Ploughshares"}}
+     {:id "active-skill_11274",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_barbarian_warcry_v2_large.png",
+       :name "War Cry"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Veteran's Warning"}}),
+    :passive
+    ({:id "passive-skill_11275",
+      :name "Berserker Rage",
+      :image
+      "https://static.icy-veins.com/images/d3/barbarian_passive_berserkerrage_large.png"}
+     {:id "passive-skill_11276",
+      :name "Ruthless",
+      :image
+      "https://static.icy-veins.com/images/d3/barbarian_passive_ruthless_large.png"}
+     {:id "passive-skill_11277",
+      :name "Boon of Bul-Kathos",
+      :image
+      "https://static.icy-veins.com/images/d3/barbarian_passive_boonofbulkathos_large.png"}
+     {:id "passive-skill_11278",
+      :name "Rampage",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_barbarian_passive_rampage_large.png"})},
+   :gear ()}
+  {:id "build_11279",
+   :name "Leap/Earthquake Build with Might of the Earth Set",
    :url
    "https://www.icy-veins.com/d3/barbarian-leap-earthquake-build-with-might-of-the-earth-patch-2-6-season-11",
+   :d3-class-name "Barbarian",
    :tier "High Tier",
-   :id "build_26349"}
-  {:name "Furious Charge Build with Raekor Set",
+   :skills
+   {:active
+    ({:id "active-skill_11280",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Earthquake"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Molten Fury"}}
+     {:id "active-skill_11281",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Seismic Slam"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Rumble"}}
+     {:id "active-skill_11282",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/barbarian_battlerage_large.png",
+       :name "Battle Rage"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Swords to Ploughshares"}}
+     {:id "active-skill_11283",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/barbarian_leap_large.png",
+       :name "Leap"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Death from Above"}}
+     {:id "active-skill_11284",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/barbarian_threateningshout_large.png",
+       :name "Threatening Shout"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Falter"}}
+     {:id "active-skill_11285",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/barbarian_wrathoftheberserker_large.png",
+       :name "Wrath of the Berserker"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Insanity"}}),
+    :passive
+    ({:id "passive-skill_11286",
+      :name "Rampage",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_barbarian_passive_rampage_large.png"}
+     {:id "passive-skill_11287",
+      :name "Earthen Might",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_barbarian_passive_earthenmight_large.png"}
+     {:id "passive-skill_11288",
+      :name "Ruthless",
+      :image
+      "https://static.icy-veins.com/images/d3/barbarian_passive_ruthless_large.png"}
+     {:id "passive-skill_11289",
+      :name "Nerves of Steel",
+      :image
+      "https://static.icy-veins.com/images/d3/barbarian_passive_nervesofsteel_large.png"})},
+   :gear ()}
+  {:id "build_11290",
+   :name "Furious Charge Build with Raekor Set",
    :url
    "https://www.icy-veins.com/d3/barbarian-furious-charge-build-with-raekor-and-immortal-king-patch-2-6-season-11",
+   :d3-class-name "Barbarian",
    :tier "High Tier",
-   :id "build_26350"}
-  {:name "Frenzy/Thorns Build with Legacy of Nightmares Set",
+   :skills
+   {:active
+    ({:id "active-skill_11291",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Furious Charge"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Stamina"}}
+     {:id "active-skill_11292",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Ancient Spear"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Boulder Toss"}}
+     {:id "active-skill_11293",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/barbarian_battlerage_large.png",
+       :name "Battle Rage"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Bloodshed"}}
+     {:id "active-skill_11294",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/barbarian_sprint_large.png",
+       :name "Sprint"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Marathon"}}
+     {:id "active-skill_11295",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/barbarian_wrathoftheberserker_large.png",
+       :name "Wrath of the Berserker"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Insanity"}}
+     {:id "active-skill_11296",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/barbarian_calloftheancients_large.png",
+       :name "Call of the Ancients"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Together as One"}}),
+    :passive
+    ({:id "passive-skill_11297",
+      :name "Rampage",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_barbarian_passive_rampage_large.png"}
+     {:id "passive-skill_11298",
+      :name "Berserker Rage",
+      :image
+      "https://static.icy-veins.com/images/d3/barbarian_passive_berserkerrage_large.png"}
+     {:id "passive-skill_11299",
+      :name "Ruthless",
+      :image
+      "https://static.icy-veins.com/images/d3/barbarian_passive_ruthless_large.png"}
+     {:id "passive-skill_11300",
+      :name "Nerves of Steel",
+      :image
+      "https://static.icy-veins.com/images/d3/barbarian_passive_nervesofsteel_large.png"})},
+   :gear ()}
+  {:id "build_11301",
+   :name "Frenzy/Thorns Build with Legacy of Nightmares Set",
    :url
    "https://www.icy-veins.com/d3/barbarian-frenzy-thorns-build-with-legacy-of-nightmares-set-patch-2-6-season-11",
+   :d3-class-name "Barbarian",
    :tier "Mid Tier",
-   :id "build_26351"}
-  {:name "Hammer of the Ancients Build with Immortal King Set",
+   :skills
+   {:active
+    ({:id "active-skill_11302",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Frenzy"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Maniac"}}
+     {:id "active-skill_11303",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Furious Charge"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Merciless Assault"}}
+     {:id "active-skill_11304",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/barbarian_ignorepain_large.png",
+       :name "Ignore Pain"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Iron Hide"}}
+     {:id "active-skill_11305",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/barbarian_threateningshout_large.png",
+       :name "Threatening Shout"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Falter"}}
+     {:id "active-skill_11306",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_barbarian_warcry_v2_large.png",
+       :name "War Cry"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Veteran's Warning"}}
+     {:id "active-skill_11307",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/barbarian_wrathoftheberserker_large.png",
+       :name "Wrath of the Berserker"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Insanity"}}),
+    :passive
+    ({:id "passive-skill_11308",
+      :name "Tough as Nails",
+      :image
+      "https://static.icy-veins.com/images/d3/barbarian_passive_toughasnails_large.png"}
+     {:id "passive-skill_11309",
+      :name "Berserker Rage",
+      :image
+      "https://static.icy-veins.com/images/d3/barbarian_passive_berserkerrage_large.png"}
+     {:id "passive-skill_11310",
+      :name "Ruthless",
+      :image
+      "https://static.icy-veins.com/images/d3/barbarian_passive_ruthless_large.png"}
+     {:id "passive-skill_11311",
+      :name "Boon of Bul-Kathos",
+      :image
+      "https://static.icy-veins.com/images/d3/barbarian_passive_boonofbulkathos_large.png"})},
+   :gear ()}
+  {:id "build_11312",
+   :name "Hammer of the Ancients Build with Immortal King Set",
    :url
    "https://www.icy-veins.com/d3/barbarian-hota-build-with-immortal-king-patch-2-6-season-11",
+   :d3-class-name "Barbarian",
    :tier "Low Tier",
-   :id "build_26352"}
-  {:name "Rend Build with Immortal King and Wrath of the Wastes Sets",
+   :skills
+   {:active
+    ({:id "active-skill_11313",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Furious Charge"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Merciless Assault"}}
+     {:id "active-skill_11314",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Hammer of the Ancients"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Smash"}}
+     {:id "active-skill_11315",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/barbarian_battlerage_large.png",
+       :name "Battle Rage"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Bloodshed"}}
+     {:id "active-skill_11316",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_barbarian_warcry_v2_large.png",
+       :name "War Cry"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Veteran's Warning"}}
+     {:id "active-skill_11317",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/barbarian_wrathoftheberserker_large.png",
+       :name "Wrath of the Berserker"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Insanity"}}
+     {:id "active-skill_11318",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/barbarian_calloftheancients_large.png",
+       :name "Call of the Ancients"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Together as One"}}),
+    :passive
+    ({:id "passive-skill_11319",
+      :name "Berserker Rage",
+      :image
+      "https://static.icy-veins.com/images/d3/barbarian_passive_berserkerrage_large.png"}
+     {:id "passive-skill_11320",
+      :name "Rampage",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_barbarian_passive_rampage_large.png"}
+     {:id "passive-skill_11321",
+      :name "Ruthless",
+      :image
+      "https://static.icy-veins.com/images/d3/barbarian_passive_ruthless_large.png"}
+     {:id "passive-skill_11322",
+      :name "Nerves of Steel",
+      :image
+      "https://static.icy-veins.com/images/d3/barbarian_passive_nervesofsteel_large.png"})},
+   :gear ()}
+  {:id "build_11323",
+   :name "Rend Build with Immortal King and Wrath of the Wastes Sets",
    :url
    "https://www.icy-veins.com/d3/barbarian-rend-build-with-immortal-king-and-wrath-of-the-wastes-patch-2-6-season-11",
+   :d3-class-name "Barbarian",
    :tier "Low Tier",
-   :id "build_26353"}),
+   :skills
+   {:active
+    ({:id "active-skill_11324",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Furious Charge"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Merciless Assault"}}
+     {:id "active-skill_11325",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Whirlwind"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Blood Funnel"}}
+     {:id "active-skill_11326",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/barbarian_rend_large.png",
+       :name "Rend"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Bloodbath"}}
+     {:id "active-skill_11327",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_barbarian_warcry_v2_large.png",
+       :name "War Cry"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Veteran's Warning"}}
+     {:id "active-skill_11328",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/barbarian_wrathoftheberserker_large.png",
+       :name "Wrath of the Berserker"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Striding Giant"}}
+     {:id "active-skill_11329",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/barbarian_calloftheancients_large.png",
+       :name "Call of the Ancients"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Together as One"}}),
+    :passive
+    ({:id "passive-skill_11330",
+      :name "Superstition",
+      :image
+      "https://static.icy-veins.com/images/d3/barbarian_passive_superstition_large.png"}
+     {:id "passive-skill_11331",
+      :name "Rampage",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_barbarian_passive_rampage_large.png"}
+     {:id "passive-skill_11332",
+      :name "Ruthless",
+      :image
+      "https://static.icy-veins.com/images/d3/barbarian_passive_ruthless_large.png"}
+     {:id "passive-skill_11333",
+      :name "Weapons Master",
+      :image
+      "https://static.icy-veins.com/images/d3/barbarian_passive_weaponsmaster_large.png"})},
+   :gear ()}),
  :witch-doctor
- ({:name "Spirit Barrage Build with LoN Set",
+ ({:id "build_11334",
+   :name "Spirit Barrage Build with LoN Set",
    :url
    "https://www.icy-veins.com/d3/witch-doctor-legacy-of-nightmares-spirit-barrage-build-patch-2-6-season-11",
+   :d3-class-name "Witch Doctor",
    :tier "Top Tier",
-   :id "build_26354"}
-  {:name "Firebats Build with Spirit of Arachyr Set",
+   :skills
+   {:active
+    ({:id "active-skill_11335",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Haunt"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Poisoned Spirit"}}
+     {:id "active-skill_11336",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Locust Swarm"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Cloud of Insects"}}
+     {:id "active-skill_11337",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/witchdoctor_piranhas_large.png",
+       :name "Piranhas"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Piranhado"}}
+     {:id "active-skill_11338",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/witchdoctor_spiritwalk_large.png",
+       :name "Spirit Walk"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Severance"}}
+     {:id "active-skill_11339",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/witchdoctor_spiritbarrage_large.png",
+       :name "Spirit Barrage"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Phlebotomize"}}
+     {:id "active-skill_11340",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/witchdoctor_soulharvest_large.png",
+       :name "Soul Harvest"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Languish"}}),
+    :passive
+    ({:id "passive-skill_11341",
+      :name "Confidence Ritual",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_witchdoctor_passive_confidenceritual_large.png"}
+     {:id "passive-skill_11342",
+      :name "Creeping Death",
+      :image
+      "https://static.icy-veins.com/images/d3/witchdoctor_passive_creepingdeath_large.png"}
+     {:id "passive-skill_11343",
+      :name "Rush of Essence",
+      :image
+      "https://static.icy-veins.com/images/d3/witchdoctor_passive_rushofessence_large.png"}
+     {:id "passive-skill_11344",
+      :name "Grave Injustice",
+      :image
+      "https://static.icy-veins.com/images/d3/witchdoctor_passive_graveinjustice_large.png"})},
+   :gear ()}
+  {:id "build_11345",
+   :name "Firebats Build with Spirit of Arachyr Set",
    :url
    "https://www.icy-veins.com/d3/witch-doctor-arachyr-firebats-build-patch-2-6-season-11",
+   :d3-class-name "Witch Doctor",
    :tier "High Tier",
-   :id "build_26355"}
-  {:name "Gargantuan Build with Helltooth Set",
+   :skills
+   {:active
+    ({:id "active-skill_11346",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Firebats"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Cloud of Bats"}}
+     {:id "active-skill_11347",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Haunt"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Draining Spirit"}}
+     {:id "active-skill_11348",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/witchdoctor_hex_large.png",
+       :name "Hex"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Jinx"}}
+     {:id "active-skill_11349",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/witchdoctor_spiritwalk_large.png",
+       :name "Spirit Walk"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Severance"}}
+     {:id "active-skill_11350",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/witchdoctor_soulharvest_large.png",
+       :name "Soul Harvest"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Languish"}}
+     {:id "active-skill_11351",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/witchdoctor_locust_swarm_large.png",
+       :name "Locust Swarm"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Cloud of Insects"}}),
+    :passive
+    ({:id "passive-skill_11352",
+      :name "Creeping Death",
+      :image
+      "https://static.icy-veins.com/images/d3/witchdoctor_passive_creepingdeath_large.png"}
+     {:id "passive-skill_11353",
+      :name "Confidence Ritual",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_witchdoctor_passive_confidenceritual_large.png"}
+     {:id "passive-skill_11354",
+      :name "Spirit Vessel",
+      :image
+      "https://static.icy-veins.com/images/d3/witchdoctor_passive_spiritvessel_large.png"}
+     {:id "passive-skill_11355",
+      :name "Grave Injustice",
+      :image
+      "https://static.icy-veins.com/images/d3/witchdoctor_passive_graveinjustice_large.png"})},
+   :gear ()}
+  {:id "build_11356",
+   :name "Gargantuan Build with Helltooth Set",
    :url
    "https://www.icy-veins.com/d3/witch-doctor-helltooth-gargantuan-build-patch-2-6-season-11",
+   :d3-class-name "Witch Doctor",
    :tier "High Tier",
-   :id "build_26356"}
-  {:name "Soul Harvest Build with Jade Harvester Set",
+   :skills
+   {:active
+    ({:id "active-skill_11357",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Wall of Death"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Communing with Spirits"}}
+     {:id "active-skill_11358",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Piranhas"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Piranhado"}}
+     {:id "active-skill_11359",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/witchdoctor_soulharvest_large.png",
+       :name "Soul Harvest"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Languish"}}
+     {:id "active-skill_11360",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/witchdoctor_spiritwalk_large.png",
+       :name "Spirit Walk"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Jaunt"}}
+     {:id "active-skill_11361",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/witchdoctor_gargantuan_large.png",
+       :name "Gargantuan"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Humongoid"}}
+     {:id "active-skill_11362",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/witchdoctor_summonzombiedog_large.png",
+       :name "Summon Zombie Dogs"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Leeching Beasts"}}),
+    :passive
+    ({:id "passive-skill_11363",
+      :name "Midnight Feast",
+      :image
+      "https://static.icy-veins.com/images/d3/witchdoctor_passive_midnightfeast_large.png"}
+     {:id "passive-skill_11364",
+      :name "Spirit Vessel",
+      :image
+      "https://static.icy-veins.com/images/d3/witchdoctor_passive_spiritvessel_large.png"}
+     {:id "passive-skill_11365",
+      :name "Grave Injustice",
+      :image
+      "https://static.icy-veins.com/images/d3/witchdoctor_passive_graveinjustice_large.png"}
+     {:id "passive-skill_11366",
+      :name "Confidence Ritual",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_witchdoctor_passive_confidenceritual_large.png"})},
+   :gear ()}
+  {:id "build_11367",
+   :name "Soul Harvest Build with Jade Harvester Set",
    :url
    "https://www.icy-veins.com/d3/witch-doctor-jade-harvester-build-with-soul-harvest-patch-2-6-season-11",
+   :d3-class-name "Witch Doctor",
    :tier "High Tier",
-   :id "build_26357"}
-  {:name "Zombie Bears Build with Helltooth Set",
+   :skills
+   {:active
+    ({:id "active-skill_11368",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Locust Swarm"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Pestilence"}}
+     {:id "active-skill_11369",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Haunt"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Resentful Spirits"}}
+     {:id "active-skill_11370",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/witchdoctor_soulharvest_large.png",
+       :name "Soul Harvest"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Languish"}}
+     {:id "active-skill_11371",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/witchdoctor_spiritwalk_large.png",
+       :name "Spirit Walk"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Jaunt"}}
+     {:id "active-skill_11372",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/witchdoctor_piranhas_large.png",
+       :name "Piranhas"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Piranhado"}}
+     {:id "active-skill_11373",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/witchdoctor_horrify_large.png",
+       :name "Horrify"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Frightening Aspect"}}),
+    :passive
+    ({:id "passive-skill_11374",
+      :name "Spirit Vessel",
+      :image
+      "https://static.icy-veins.com/images/d3/witchdoctor_passive_spiritvessel_large.png"}
+     {:id "passive-skill_11375",
+      :name "Grave Injustice",
+      :image
+      "https://static.icy-veins.com/images/d3/witchdoctor_passive_graveinjustice_large.png"}
+     {:id "passive-skill_11376",
+      :name "Confidence Ritual",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_witchdoctor_passive_confidenceritual_large.png"}
+     {:id "passive-skill_11377",
+      :name "Creeping Death",
+      :image
+      "https://static.icy-veins.com/images/d3/witchdoctor_passive_creepingdeath_large.png"})},
+   :gear ()}
+  {:id "build_11378",
+   :name "Zombie Bears Build with Helltooth Set",
    :url
    "https://www.icy-veins.com/d3/witch-doctor-helltooth-zombie-bears-build-patch-2-6-season-11",
+   :d3-class-name "Witch Doctor",
    :tier "Mid Tier",
-   :id "build_26358"}
-  {:name "Acid Cloud Build with Helltooth Set",
+   :skills
+   {:active
+    ({:id "active-skill_11379",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Haunt"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Poisoned Spirit"}}
+     {:id "active-skill_11380",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Zombie Charger"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Zombie Bears"}}
+     {:id "active-skill_11381",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/witchdoctor_soulharvest_large.png",
+       :name "Soul Harvest"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Languish"}}
+     {:id "active-skill_11382",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/witchdoctor_spiritwalk_large.png",
+       :name "Spirit Walk"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Jaunt"}}
+     {:id "active-skill_11383",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/witchdoctor_piranhas_large.png",
+       :name "Piranhas"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Piranhado"}}
+     {:id "active-skill_11384",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/witchdoctor_wallofzombies_large.png",
+       :name "Wall of Death"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Fire Wall"}}),
+    :passive
+    ({:id "passive-skill_11385",
+      :name "Swampland Attunement",
+      :image
+      "https://static.icy-veins.com/images/d3/witchdoctor_passive_physicalattunement_large.png"}
+     {:id "passive-skill_11386",
+      :name "Grave Injustice",
+      :image
+      "https://static.icy-veins.com/images/d3/witchdoctor_passive_graveinjustice_large.png"}
+     {:id "passive-skill_11387",
+      :name "Confidence Ritual",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_witchdoctor_passive_confidenceritual_large.png"}
+     {:id "passive-skill_11388",
+      :name "Spirit Vessel",
+      :image
+      "https://static.icy-veins.com/images/d3/witchdoctor_passive_spiritvessel_large.png"})},
+   :gear ()}
+  {:id "build_11389",
+   :name "Acid Cloud Build with Helltooth Set",
    :url
    "https://www.icy-veins.com/d3/witch-doctor-helltooth-acid-cloud-build-patch-2-6-season-11",
+   :d3-class-name "Witch Doctor",
    :tier "Mid Tier",
-   :id "build_26359"}
-  {:name "Carnevil Poison Dart Build with Zunimassa Set",
+   :skills
+   {:active
+    ({:id "active-skill_11390",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Poison Dart"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Spined Dart"}}
+     {:id "active-skill_11391",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Acid Cloud"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Slow Burn"}}
+     {:id "active-skill_11392",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/witchdoctor_wallofzombies_large.png",
+       :name "Wall of Death"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Fire Wall"}}
+     {:id "active-skill_11393",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/witchdoctor_spiritwalk_large.png",
+       :name "Spirit Walk"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Jaunt"}}
+     {:id "active-skill_11394",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/witchdoctor_piranhas_large.png",
+       :name "Piranhas"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Piranhado"}}
+     {:id "active-skill_11395",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/witchdoctor_haunt_large.png",
+       :name "Haunt"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Poisoned Spirit"}}),
+    :passive
+    ({:id "passive-skill_11396",
+      :name "Swampland Attunement",
+      :image
+      "https://static.icy-veins.com/images/d3/witchdoctor_passive_physicalattunement_large.png"}
+     {:id "passive-skill_11397",
+      :name "Spirit Vessel",
+      :image
+      "https://static.icy-veins.com/images/d3/witchdoctor_passive_spiritvessel_large.png"}
+     {:id "passive-skill_11398",
+      :name "Grave Injustice",
+      :image
+      "https://static.icy-veins.com/images/d3/witchdoctor_passive_graveinjustice_large.png"}
+     {:id "passive-skill_11399",
+      :name "Confidence Ritual",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_witchdoctor_passive_confidenceritual_large.png"})},
+   :gear ()}
+  {:id "build_11400",
+   :name "Carnevil Poison Dart Build with Zunimassa Set",
    :url
    "https://www.icy-veins.com/d3/witch-doctor-zuni-carnevil-poison-dart-build-patch-2-6-season-11",
+   :d3-class-name "Witch Doctor",
    :tier "Mid Tier",
-   :id "build_26360"}),
+   :skills
+   {:active
+    ({:id "active-skill_11401",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Poison Dart"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Spined Dart"}}
+     {:id "active-skill_11402",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Grasp of the Dead"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Desperate Grasp"}}
+     {:id "active-skill_11403",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/witchdoctor_bigbadvoodoo_large.png",
+       :name "Big Bad Voodoo"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Slam Dance"}}
+     {:id "active-skill_11404",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/witchdoctor_spiritwalk_large.png",
+       :name "Spirit Walk"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Jaunt"}}
+     {:id "active-skill_11405",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/witchdoctor_soulharvest_large.png",
+       :name "Soul Harvest"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Languish"}}
+     {:id "active-skill_11406",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/witchdoctor_fetisharmy_large.png",
+       :name "Fetish Army"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Legion of Daggers"}}),
+    :passive
+    ({:id "passive-skill_11407",
+      :name "Spirit Vessel",
+      :image
+      "https://static.icy-veins.com/images/d3/witchdoctor_passive_spiritvessel_large.png"}
+     {:id "passive-skill_11408",
+      :name "Pierce the Veil",
+      :image
+      "https://static.icy-veins.com/images/d3/witchdoctor_passive_piercetheveil_large.png"}
+     {:id "passive-skill_11409",
+      :name "Fetish Sycophants",
+      :image
+      "https://static.icy-veins.com/images/d3/witchdoctor_passive_fetishsycophants_large.png"}
+     {:id "passive-skill_11410",
+      :name "Bad Medicine",
+      :image
+      "https://static.icy-veins.com/images/d3/witchdoctor_passive_badmedicine_large.png"})},
+   :gear ()}),
  :crusader
- ({:name "Blessed Hammer Build with Seeker of the Light Set",
+ ({:id "build_11411",
+   :name "Blessed Hammer Build with Seeker of the Light Set",
    :url
    "https://www.icy-veins.com/d3/crusader-hammerdin-build-with-blessed-hammer-and-seeker-of-the-light-set-patch-2-6-season-11",
+   :d3-class-name "Crusader",
    :tier "Top Tier",
-   :id "build_26361"}
-  {:name "Bombardment Build with Legacy of Nightmares Set",
+   :skills
+   {:active
+    ({:id "active-skill_11412",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Blessed Hammer"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Limitless"}}
+     {:id "active-skill_11413",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Falling Sword"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Rapid Descent"}}
+     {:id "active-skill_11414",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_crusader_lawsofvalor2_large.png",
+       :name "Laws of Valor"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Critical"}}
+     {:id "active-skill_11415",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_crusader_ironskin_large.png",
+       :name "Iron Skin"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Flash"}}
+     {:id "active-skill_11416",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_crusader_provoke_large.png",
+       :name "Provoke"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Too Scared to Run"}}
+     {:id "active-skill_11417",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_crusader_akaratschampion_large.png",
+       :name "Akarat's Champion"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Prophet"}}),
+    :passive
+    ({:id "passive-skill_11418",
+      :name "Fervor",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_crusader_passive_fervor_large.png"}
+     {:id "passive-skill_11419",
+      :name "Holy Cause",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_crusader_passive_holycause_large.png"}
+     {:id "passive-skill_11420",
+      :name "Indestructible",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_crusader_passive_indestructible_large.png"}
+     {:id "passive-skill_11421",
+      :name "Finery",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_crusader_passive_finery_large.png"})},
+   :gear ()}
+  {:id "build_11422",
+   :name "Bombardment Build with Legacy of Nightmares Set",
    :url
    "https://www.icy-veins.com/d3/crusader-legacy-of-nightmares-bombardment-build-patch-2-6-season-11",
+   :d3-class-name "Crusader",
    :tier "High Tier",
-   :id "build_26362"}
-  {:name "Sweep Attack Build with Roland's Set",
+   :skills
+   {:active
+    ({:id "active-skill_11427",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Bombardment"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Barrels of Spikes"}}
+     {:id "active-skill_11428",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Steed Charge"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Spiked Barding"}}
+     {:id "active-skill_11429",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_crusader_condemn_large.png",
+       :name "Condemn"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Vacuum"}}
+     {:id "active-skill_11430",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_crusader_ironskin_large.png",
+       :name "Iron Skin"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Reflective Skin"}}
+     {:id "active-skill_11431",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_crusader_consecration_large.png",
+       :name "Consecration"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Bed of Nails"}}
+     {:id "active-skill_11432",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_crusader_akaratschampion_large.png",
+       :name "Akarat's Champion"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Prophet"}}),
+    :passive
+    ({:id "passive-skill_11433",
+      :name "Fervor",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_crusader_passive_fervor_large.png"}
+     {:id "passive-skill_11434",
+      :name "Iron Maiden",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_crusader_passive_ironmaiden_large.png"}
+     {:id "passive-skill_11435",
+      :name "Lord Commander",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_crusader_passive_lordcommander_large.png"}
+     {:id "passive-skill_11436",
+      :name "Finery",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_crusader_passive_finery_large.png"})},
+   :gear ()}
+  {:id "build_11437",
+   :name "Sweep Attack Build with Roland's Set",
    :url
    "https://www.icy-veins.com/d3/crusader-rolands-sweep-attack-build-patch-2-6-season-11",
+   :d3-class-name "Crusader",
    :tier "High Tier",
-   :id "build_26363"}
-  {:name "Bombardment Build with Akkhan Set",
+   :skills
+   {:active
+    ({:id "active-skill_11438",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Sweep Attack"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Trip Attack"}}
+     {:id "active-skill_11439",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Condemn"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Vacuum"}}
+     {:id "active-skill_11440",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_crusader_steedcharge_large.png",
+       :name "Steed Charge"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Endurance"}}
+     {:id "active-skill_11441",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_crusader_ironskin_large.png",
+       :name "Iron Skin"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Flash"}}
+     {:id "active-skill_11442",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_crusader_lawsofvalor2_large.png",
+       :name "Laws of Valor"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Unstoppable Force"}}
+     {:id "active-skill_11443",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_crusader_akaratschampion_large.png",
+       :name "Akarat's Champion"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Prophet"}}),
+    :passive
+    ({:id "passive-skill_11444",
+      :name "Heavenly Strength",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_crusader_passive_heavenlystrength_large.png"}
+     {:id "passive-skill_11445",
+      :name "Long Arm of the Law",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_crusader_passive_longarmofthelaw_large.png"}
+     {:id "passive-skill_11446",
+      :name "Indestructible",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_crusader_passive_indestructible_large.png"}
+     {:id "passive-skill_11447",
+      :name "Finery",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_crusader_passive_finery_large.png"})},
+   :gear ()}
+  {:id "build_11448",
+   :name "Bombardment Build with Akkhan Set",
    :url
    "https://www.icy-veins.com/d3/crusader-akkhan-bombardment-build-patch-2-6-season-11",
+   :d3-class-name "Crusader",
    :tier "Mid Tier",
-   :id "build_26364"}
-  {:name "Thorns Build with Invoker Set",
+   :skills
+   {:active
+    ({:id "active-skill_11449",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Bombardment"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Barrels of Spikes"}}
+     {:id "active-skill_11450",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Steed Charge"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Spiked Barding"}}
+     {:id "active-skill_11451",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_crusader_lawsofhope2_large.png",
+       :name "Laws of Hope"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Wings of Angels"}}
+     {:id "active-skill_11452",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_crusader_condemn_large.png",
+       :name "Condemn"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Vacuum"}}
+     {:id "active-skill_11453",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_crusader_ironskin_large.png",
+       :name "Iron Skin"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Reflective Skin"}}
+     {:id "active-skill_11454",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_crusader_akaratschampion_large.png",
+       :name "Akarat's Champion"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Prophet"}}),
+    :passive
+    ({:id "passive-skill_11455",
+      :name "Heavenly Strength",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_crusader_passive_heavenlystrength_large.png"}
+     {:id "passive-skill_11456",
+      :name "Iron Maiden",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_crusader_passive_ironmaiden_large.png"}
+     {:id "passive-skill_11457",
+      :name "Lord Commander",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_crusader_passive_lordcommander_large.png"}
+     {:id "passive-skill_11458",
+      :name "Indestructible",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_crusader_passive_indestructible_large.png"})},
+   :gear ()}
+  {:id "build_11459",
+   :name "Thorns Build with Invoker Set",
    :url
    "https://www.icy-veins.com/d3/crusader-invoker-thorns-build-patch-2-6-season-11",
+   :d3-class-name "Crusader",
    :tier "Mid Tier",
-   :id "build_26365"}
-  {:name "Condemn Build with Akkhan Set",
+   :skills
+   {:active
+    ({:id "active-skill_11460",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Punish"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Celerity"}}
+     {:id "active-skill_11461",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Steed Charge"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Endurance"}}
+     {:id "active-skill_11462",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_crusader_lawsofjustice2_large.png",
+       :name "Laws of Justice"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Decaying Strength"}}
+     {:id "active-skill_11463",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_crusader_ironskin_large.png",
+       :name "Iron Skin"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Reflective Skin"}}
+     {:id "active-skill_11464",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_crusader_provoke_large.png",
+       :name "Provoke"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Hit Me"}}
+     {:id "active-skill_11465",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_crusader_akaratschampion_large.png",
+       :name "Akarat's Champion"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Prophet"}}),
+    :passive
+    ({:id "passive-skill_11466",
+      :name "Fervor",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_crusader_passive_fervor_large.png"}
+     {:id "passive-skill_11467",
+      :name "Iron Maiden",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_crusader_passive_ironmaiden_large.png"}
+     {:id "passive-skill_11468",
+      :name "Hold Your Ground",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_crusader_passive_holdyourground_large.png"}
+     {:id "passive-skill_11469",
+      :name "Finery",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_crusader_passive_finery_large.png"})},
+   :gear ()}
+  {:id "build_11470",
+   :name "Condemn Build with Akkhan Set",
    :url
    "https://www.icy-veins.com/d3/crusader-akkhan-condemn-build-patch-2-6-season-11",
+   :d3-class-name "Crusader",
    :tier "Low Tier",
-   :id "build_26366"}),
+   :skills
+   {:active
+    ({:id "active-skill_11471",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Slash"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Guard"}}
+     {:id "active-skill_11472",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Iron Skin"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Steel Skin"}}
+     {:id "active-skill_11473",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_crusader_lawsofvalor2_large.png",
+       :name "Laws of Valor"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Unstoppable Force"}}
+     {:id "active-skill_11474",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_crusader_condemn_large.png",
+       :name "Condemn"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Vacuum"}}
+     {:id "active-skill_11475",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_crusader_provoke_large.png",
+       :name "Provoke"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Too Scared to Run"}}
+     {:id "active-skill_11476",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_crusader_akaratschampion_large.png",
+       :name "Akarat's Champion"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Prophet"}}),
+    :passive
+    ({:id "passive-skill_11477",
+      :name "Heavenly Strength",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_crusader_passive_heavenlystrength_large.png"}
+     {:id "passive-skill_11478",
+      :name "Indestructible",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_crusader_passive_indestructible_large.png"}
+     {:id "passive-skill_11479",
+      :name "Long Arm of the Law",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_crusader_passive_longarmofthelaw_large.png"}
+     {:id "passive-skill_11480",
+      :name "Finery",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_crusader_passive_finery_large.png"})},
+   :gear ()}),
  :monk
- ({:name "Crippling Wave Build with Raiment and Shenlong Sets",
+ ({:id "build_11481",
+   :name "Crippling Wave Build with Raiment and Shenlong Sets",
    :url
    "https://www.icy-veins.com/d3/monk-raiment-shenlong-generator-build-with-crippling-wave-patch-2-6-season-11",
+   :d3-class-name "Monk",
    :tier "Top Tier",
-   :id "build_26367"}
-  {:name "Support Build with Inna's Mantra Set",
+   :skills
+   {:active
+    ({:id "active-skill_11482",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Way of the Hundred Fists"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Assimilation"}}
+     {:id "active-skill_11483",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Crippling Wave"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Mangle"}}
+     {:id "active-skill_11484",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/monk_breathofheaven_large.png",
+       :name "Breath of Heaven"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Infused with Light"}}
+     {:id "active-skill_11485",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_monk_dashingstrike_large.png",
+       :name "Dashing Strike"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Radiance"}}
+     {:id "active-skill_11486",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_monk_mantraofevasion_v2_large.png",
+       :name "Mantra of Salvation"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Agility"}}
+     {:id "active-skill_11487",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/monk_serenity_large.png",
+       :name "Serenity"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Ascension"}}),
+    :passive
+    ({:id "passive-skill_11488",
+      :name "Harmony",
+      :image
+      "https://static.icy-veins.com/images/d3/p1_monk_passive_harmony_large.png"}
+     {:id "passive-skill_11489",
+      :name "Alacrity",
+      :image
+      "https://static.icy-veins.com/images/d3/monk_passive_guidinglight_large.png"}
+     {:id "passive-skill_11490",
+      :name "Seize the Initiative",
+      :image
+      "https://static.icy-veins.com/images/d3/monk_passive_seizetheinitiative_large.png"}
+     {:id "passive-skill_11491",
+      :name "Exalted Soul",
+      :image
+      "https://static.icy-veins.com/images/d3/monk_passive_exaltedsoul_large.png"})},
+   :gear ()}
+  {:id "build_11492",
+   :name "Support Build with Inna's Mantra Set",
    :url
    "https://www.icy-veins.com/d3/monk-support-build-with-inna-patch-2-6-season-11",
+   :d3-class-name "Monk",
    :tier "Top Tier",
-   :id "build_26368"}
-  {:name "Exploding Palm and Mystic Ally Build with Inna's Mantra Set",
+   :skills
+   {:active
+    ({:id "active-skill_11493",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Crippling Wave"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Tsunami"}}
+     {:id "active-skill_11494",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Blinding Flash"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Crippling Light"}}
+     {:id "active-skill_11495",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_monk_epiphany_large.png",
+       :name "Epiphany"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Soothing Mist"}}
+     {:id "active-skill_11496",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/monk_cyclonestrike_large.png",
+       :name "Cyclone Strike"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Implosion"}}
+     {:id "active-skill_11497",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_monk_innersanctuary_large.png",
+       :name "Inner Sanctuary"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Temple of Protection"}}
+     {:id "active-skill_11498",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_monk_mantraofhealing_v2_large.png",
+       :name "Mantra of Healing"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Time of Need"}}),
+    :passive
+    ({:id "passive-skill_11499",
+      :name "Near Death Experience",
+      :image
+      "https://static.icy-veins.com/images/d3/monk_passive_neardeathexperience_large.png"}
+     {:id "passive-skill_11500",
+      :name "Beacon of Ytar",
+      :image
+      "https://static.icy-veins.com/images/d3/monk_passive_beaconofytar_large.png"}
+     {:id "passive-skill_11501",
+      :name "Resolve",
+      :image
+      "https://static.icy-veins.com/images/d3/monk_passive_resolve_large.png"}
+     {:id "passive-skill_11502",
+      :name "Unity",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_monk_passive_unity_large.png"})},
+   :gear ()}
+  {:id "build_11503",
+   :name "Exploding Palm and Mystic Ally Build with Inna's Mantra Set",
    :url
    "https://www.icy-veins.com/d3/monk-inna-exploding-palm-and-mystic-ally-build-patch-2-6-season-11",
+   :d3-class-name "Monk",
    :tier "High Tier",
-   :id "build_26369"}
-  {:name "Lashing Tail Kick Build with Sunwuko or LoN Sets",
+   :skills
+   {:active
+    ({:id "active-skill_11504",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Way of the Hundred Fists"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Assimilation"}}
+     {:id "active-skill_11505",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Dashing Strike"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Blinding Speed"}}
+     {:id "active-skill_11506",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/monk_serenity_large.png",
+       :name "Serenity"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Ascension"}}
+     {:id "active-skill_11507",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/monk_cyclonestrike_large.png",
+       :name "Cyclone Strike"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Implosion"}}
+     {:id "active-skill_11508",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/monk_explodingpalm_large.png",
+       :name "Exploding Palm"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Impending Doom"}}
+     {:id "active-skill_11509",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_monk_mystically_v2_large.png",
+       :name "Mystic Ally"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Water Ally"}}),
+    :passive
+    ({:id "passive-skill_11510",
+      :name "Harmony",
+      :image
+      "https://static.icy-veins.com/images/d3/p1_monk_passive_harmony_large.png"}
+     {:id "passive-skill_11511",
+      :name "Beacon of Ytar",
+      :image
+      "https://static.icy-veins.com/images/d3/monk_passive_beaconofytar_large.png"}
+     {:id "passive-skill_11512",
+      :name "Seize the Initiative",
+      :image
+      "https://static.icy-veins.com/images/d3/monk_passive_seizetheinitiative_large.png"}
+     {:id "passive-skill_11513",
+      :name "Near Death Experience",
+      :image
+      "https://static.icy-veins.com/images/d3/monk_passive_neardeathexperience_large.png"})},
+   :gear ()}
+  {:id "build_11514",
+   :name "Lashing Tail Kick Build with Sunwuko or LoN Sets",
    :url
    "https://www.icy-veins.com/d3/monk-legacy-of-nightmares-lashing-tail-kick-build-patch-2-6-season-11",
+   :d3-class-name "Monk",
    :tier "High Tier",
-   :id "build_26370"}
-  {:name "Seven-Sided Strike Build with Uliana's Strategem Set",
+   :skills
+   {:active
+    ({:id "active-skill_11515",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Lashing Tail Kick"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Vulture Claw Kick"}}
+     {:id "active-skill_11516",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Dashing Strike"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Blinding Speed"}}
+     {:id "active-skill_11517",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_monk_epiphany_large.png",
+       :name "Epiphany"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Desert Shroud"}}
+     {:id "active-skill_11518",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/monk_cyclonestrike_large.png",
+       :name "Cyclone Strike"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Implosion"}}
+     {:id "active-skill_11519",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/monk_blindingflash_large.png",
+       :name "Blinding Flash"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Replenishing Light"}}
+     {:id "active-skill_11520",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_monk_mantraofevasion_v2_large.png",
+       :name "Mantra of Salvation"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Agility"}}),
+    :passive
+    ({:id "passive-skill_11521",
+      :name "Seize the Initiative",
+      :image
+      "https://static.icy-veins.com/images/d3/monk_passive_seizetheinitiative_large.png"}
+     {:id "passive-skill_11522",
+      :name "Beacon of Ytar",
+      :image
+      "https://static.icy-veins.com/images/d3/monk_passive_beaconofytar_large.png"}
+     {:id "passive-skill_11523",
+      :name "Harmony",
+      :image
+      "https://static.icy-veins.com/images/d3/p1_monk_passive_harmony_large.png"}
+     {:id "passive-skill_11524",
+      :name "Relentless Assault",
+      :image
+      "https://static.icy-veins.com/images/d3/p1_monk_passive_relentlessassault_large.png"})},
+   :gear ()}
+  {:id "build_11525",
+   :name "Seven-Sided Strike Build with Uliana's Strategem Set",
    :url
    "https://www.icy-veins.com/d3/monk-uliana-seven-sided-strike-build-with-exploding-palm-patch-2-6-season-11",
+   :d3-class-name "Monk",
    :tier "Mid Tier",
-   :id "build_26371"}
-  {:name "Wave of Light Build with Sunwuko Set",
+   :skills
+   {:active
+    ({:id "active-skill_11526",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Way of the Hundred Fists"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Assimilation"}}
+     {:id "active-skill_11527",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Exploding Palm"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Impending Doom"}}
+     {:id "active-skill_11528",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_monk_epiphany_large.png",
+       :name "Epiphany"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Desert Shroud"}}
+     {:id "active-skill_11529",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_monk_dashingstrike_large.png",
+       :name "Dashing Strike"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Blinding Speed"}}
+     {:id "active-skill_11530",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/monk_sevensidedstrike_large.png",
+       :name "Seven-Sided Strike"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Sustained Attack"}}
+     {:id "active-skill_11531",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/monk_cyclonestrike_large.png",
+       :name "Cyclone Strike"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Implosion"}}),
+    :passive
+    ({:id "passive-skill_11532",
+      :name "Harmony",
+      :image
+      "https://static.icy-veins.com/images/d3/p1_monk_passive_harmony_large.png"}
+     {:id "passive-skill_11533",
+      :name "Beacon of Ytar",
+      :image
+      "https://static.icy-veins.com/images/d3/monk_passive_beaconofytar_large.png"}
+     {:id "passive-skill_11534",
+      :name "Mythic Rhythm",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_monk_passive_mythicrhythm_large.png"}
+     {:id "passive-skill_11535",
+      :name "Near Death Experience",
+      :image
+      "https://static.icy-veins.com/images/d3/monk_passive_neardeathexperience_large.png"})},
+   :gear ()}
+  {:id "build_11536",
+   :name "Wave of Light Build with Sunwuko Set",
    :url
    "https://www.icy-veins.com/d3/monk-sunwuko-wave-of-light-build-patch-2-6-season-11",
+   :d3-class-name "Monk",
    :tier "Mid Tier",
-   :id "build_26372"}),
+   :skills
+   {:active
+    ({:id "active-skill_11537",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Wave of Light"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Explosive Light"}}
+     {:id "active-skill_11538",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Dashing Strike"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Blinding Speed"}}
+     {:id "active-skill_11539",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_monk_epiphany_large.png",
+       :name "Epiphany"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Desert Shroud"}}
+     {:id "active-skill_11540",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/monk_sweepingwind_large.png",
+       :name "Sweeping Wind"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Inner Storm"}}
+     {:id "active-skill_11541",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_monk_mystically_v2_large.png",
+       :name "Mystic Ally"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Air Ally"}}
+     {:id "active-skill_11542",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/x1_monk_mantraofevasion_v2_large.png",
+       :name "Mantra of Salvation"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Agility"}}),
+    :passive
+    ({:id "passive-skill_11543",
+      :name "Seize the Initiative",
+      :image
+      "https://static.icy-veins.com/images/d3/monk_passive_seizetheinitiative_large.png"}
+     {:id "passive-skill_11544",
+      :name "Beacon of Ytar",
+      :image
+      "https://static.icy-veins.com/images/d3/monk_passive_beaconofytar_large.png"}
+     {:id "passive-skill_11545",
+      :name "Harmony",
+      :image
+      "https://static.icy-veins.com/images/d3/p1_monk_passive_harmony_large.png"}
+     {:id "passive-skill_11546",
+      :name "Near Death Experience",
+      :image
+      "https://static.icy-veins.com/images/d3/monk_passive_neardeathexperience_large.png"})},
+   :gear ()}),
  :wizard
- ({:name "Manald Lightning Archon Build with Vyr and Tal Rasha Sets",
+ ({:id "build_11547",
+   :name "Manald Lightning Archon Build with Vyr and Tal Rasha Sets",
    :url
    "https://www.icy-veins.com/d3/wizard-lightning-archon-build-with-manald-heal-and-tal-rasha-vyr-sets-patch-2-6-season-11",
+   :d3-class-name "Wizard",
    :tier "Top Tier",
-   :id "build_26373"}
-  {:name "Archon Build with Firebird Set",
+   :skills
+   {:active
+    ({:id "active-skill_11548",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Arcane Torrent"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Static Discharge"}}
+     {:id "active-skill_11549",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Magic Weapon"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Deflection"}}
+     {:id "active-skill_11550",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/wizard_archon_large.png",
+       :name "Archon"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Combustion"}}
+     {:id "active-skill_11551",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/wizard_frostnova_large.png",
+       :name "Frost Nova"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Frozen Mist"}}
+     {:id "active-skill_11552",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/wizard_teleport_large.png",
+       :name "Teleport"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Calamity"}}
+     {:id "active-skill_11553",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/wizard_energyarmor_large.png",
+       :name "Energy Armor"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Force Armor"}}),
+    :passive
+    ({:id "passive-skill_11554",
+      :name "Unstable Anomaly",
+      :image
+      "https://static.icy-veins.com/images/d3/wizard_passive_unstableanomaly_large.png"}
+     {:id "passive-skill_11555",
+      :name "Paralysis",
+      :image
+      "https://static.icy-veins.com/images/d3/wizard_passive_paralysis_large.png"}
+     {:id "passive-skill_11556",
+      :name "Power Hungry",
+      :image
+      "https://static.icy-veins.com/images/d3/wizard_passive_powerhungry_large.png"}
+     {:id "passive-skill_11557",
+      :name "Evocation",
+      :image
+      "https://static.icy-veins.com/images/d3/wizard_passive_evocation_large.png"})},
+   :gear ()}
+  {:id "build_11558",
+   :name "Archon Build with Firebird Set",
    :url
    "https://www.icy-veins.com/d3/wizard-firebird-archon-build-patch-2-6-season-11",
+   :d3-class-name "Wizard",
    :tier "High Tier",
-   :id "build_26374"}
-  {:name "Arcane Torrent Build with Manald and Tal Rasha Set",
+   :skills
+   {:active
+    ({:id "active-skill_11559",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Spectral Blade"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Flame Blades"}}
+     {:id "active-skill_11560",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Archon"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Combustion"}}
+     {:id "active-skill_11561",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/wizard_frostnova_large.png",
+       :name "Frost Nova"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Bone Chill"}}
+     {:id "active-skill_11562",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/wizard_magicweapon_large.png",
+       :name "Magic Weapon"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Force Weapon"}}
+     {:id "active-skill_11563",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/wizard_teleport_large.png",
+       :name "Teleport"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Safe Passage"}}
+     {:id "active-skill_11564",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/wizard_icearmor_large.png",
+       :name "Ice Armor"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Crystallize"}}),
+    :passive
+    ({:id "passive-skill_11565",
+      :name "Audacity",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_wizard_passive_audacity_large.png"}
+     {:id "passive-skill_11566",
+      :name "Illusionist",
+      :image
+      "https://static.icy-veins.com/images/d3/wizard_passive_illusionist_large.png"}
+     {:id "passive-skill_11567",
+      :name "Evocation",
+      :image
+      "https://static.icy-veins.com/images/d3/wizard_passive_evocation_large.png"}
+     {:id "passive-skill_11568",
+      :name "Unstable Anomaly",
+      :image
+      "https://static.icy-veins.com/images/d3/wizard_passive_unstableanomaly_large.png"})},
+   :gear ()}
+  {:id "build_11569",
+   :name "Arcane Torrent Build with Manald and Tal Rasha Set",
    :url
    "https://www.icy-veins.com/d3/wizard-arcane-torrent-build-with-manald-ring-and-tal-rasha-set-patch-2-6-season-11",
+   :d3-class-name "Wizard",
    :tier "Mid Tier",
-   :id "build_26375"}
-  {:name "Arcane Orbit Build with DMO Set",
+   :skills
+   {:active
+    ({:id "active-skill_11570",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Arcane Torrent"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Static Discharge"}}
+     {:id "active-skill_11571",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Teleport"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Calamity"}}
+     {:id "active-skill_11572",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/wizard_explosiveblast_large.png",
+       :name "Explosive Blast"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Chain Reaction"}}
+     {:id "active-skill_11573",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/wizard_blizzard_large.png",
+       :name "Blizzard"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Snowbound"}}
+     {:id "active-skill_11574",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/wizard_magicweapon_large.png",
+       :name "Magic Weapon"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Conduit"}}
+     {:id "active-skill_11575",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/wizard_icearmor_large.png",
+       :name "Ice Armor"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Crystallize"}}),
+    :passive
+    ({:id "passive-skill_11576",
+      :name "Paralysis",
+      :image
+      "https://static.icy-veins.com/images/d3/wizard_passive_paralysis_large.png"}
+     {:id "passive-skill_11577",
+      :name "Audacity",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_wizard_passive_audacity_large.png"}
+     {:id "passive-skill_11578",
+      :name "Unstable Anomaly",
+      :image
+      "https://static.icy-veins.com/images/d3/wizard_passive_unstableanomaly_large.png"}
+     {:id "passive-skill_11579",
+      :name "Illusionist",
+      :image
+      "https://static.icy-veins.com/images/d3/wizard_passive_illusionist_large.png"})},
+   :gear ()}
+  {:id "build_11580",
+   :name "Arcane Orbit Build with DMO Set",
    :url
    "https://www.icy-veins.com/d3/wizard-dmo-arcane-orbit-build-patch-2-6-season-11",
+   :d3-class-name "Wizard",
    :tier "Mid Tier",
-   :id "build_26376"}
-  {:name "Archon Build with Vyr Set",
+   :skills
+   {:active
+    ({:id "active-skill_11581",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Spectral Blade"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Barrier Blades"}}
+     {:id "active-skill_11582",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Teleport"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Safe Passage"}}
+     {:id "active-skill_11583",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/wizard_arcaneorb_large.png",
+       :name "Arcane Orb"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Arcane Orbit"}}
+     {:id "active-skill_11584",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/wizard_slowtime_large.png",
+       :name "Slow Time"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Exhaustion"}}
+     {:id "active-skill_11585",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/wizard_explosiveblast_large.png",
+       :name "Explosive Blast"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Chain Reaction"}}
+     {:id "active-skill_11586",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/wizard_icearmor_large.png",
+       :name "Ice Armor"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Crystallize"}}),
+    :passive
+    ({:id "passive-skill_11587",
+      :name "Arcane Dynamo",
+      :image
+      "https://static.icy-veins.com/images/d3/wizard_passive_arcanedynamo_large.png"}
+     {:id "passive-skill_11588",
+      :name "Illusionist",
+      :image
+      "https://static.icy-veins.com/images/d3/wizard_passive_illusionist_large.png"}
+     {:id "passive-skill_11589",
+      :name "Audacity",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_wizard_passive_audacity_large.png"}
+     {:id "passive-skill_11590",
+      :name "Unstable Anomaly",
+      :image
+      "https://static.icy-veins.com/images/d3/wizard_passive_unstableanomaly_large.png"})},
+   :gear ()}
+  {:id "build_11591",
+   :name "Archon Build with Vyr Set",
    :url
    "https://www.icy-veins.com/d3/wizard-vyr-archon-build-patch-2-6-season-11",
+   :d3-class-name "Wizard",
    :tier "Low Tier",
-   :id "build_26377"}
-  {:name "Explosive Blast Farming Build with Tal Rasha Set",
+   :skills
+   {:active
+    ({:id "active-skill_11592",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Arcane Torrent"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Static Discharge"}}
+     {:id "active-skill_11593",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Teleport"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Safe Passage"}}
+     {:id "active-skill_11594",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/wizard_archon_large.png",
+       :name "Archon"},
+      :rune {:image "https:", :name ""}}
+     {:id "active-skill_11595",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/wizard_magicweapon_large.png",
+       :name "Magic Weapon"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Deflection"}}
+     {:id "active-skill_11596",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/wizard_icearmor_large.png",
+       :name "Ice Armor"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Crystallize"}}
+     {:id "active-skill_11597",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/wizard_frostnova_large.png",
+       :name "Frost Nova"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Bone Chill"}}),
+    :passive
+    ({:id "passive-skill_11598",
+      :name "Evocation",
+      :image
+      "https://static.icy-veins.com/images/d3/wizard_passive_evocation_large.png"}
+     {:id "passive-skill_11599",
+      :name "Audacity",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_wizard_passive_audacity_large.png"}
+     {:id "passive-skill_11600",
+      :name "Unstable Anomaly",
+      :image
+      "https://static.icy-veins.com/images/d3/wizard_passive_unstableanomaly_large.png"}
+     {:id "passive-skill_11601",
+      :name "Power Hungry",
+      :image
+      "https://static.icy-veins.com/images/d3/wizard_passive_powerhungry_large.png"})},
+   :gear ()}
+  {:id "build_11602",
+   :name "Explosive Blast Farming Build with Tal Rasha Set",
    :url
    "https://www.icy-veins.com/d3/wizard-explosive-blast-farming-build-with-tal-rasha-set-patch-2-6-season-11",
+   :d3-class-name "Wizard",
    :tier "Low Tier",
-   :id "build_26378"}),
+   :skills
+   {:active
+    ({:id "active-skill_11603",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Electrocute"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Surge of Power"}}
+     {:id "active-skill_11604",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Teleport"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Calamity"}}
+     {:id "active-skill_11605",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/wizard_frostnova_large.png",
+       :name "Frost Nova"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Frozen Mist"}}
+     {:id "active-skill_11606",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/wizard_explosiveblast_large.png",
+       :name "Explosive Blast"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Chain Reaction"}}
+     {:id "active-skill_11607",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/wizard_diamondskin_large.png",
+       :name "Diamond Skin"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Prism"}}
+     {:id "active-skill_11608",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/wizard_stormarmor_large.png",
+       :name "Storm Armor"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Scramble"}}),
+    :passive
+    ({:id "passive-skill_11609",
+      :name "Illusionist",
+      :image
+      "https://static.icy-veins.com/images/d3/wizard_passive_illusionist_large.png"}
+     {:id "passive-skill_11610",
+      :name "Elemental Exposure",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_wizard_passive_elementalexposure_large.png"}
+     {:id "passive-skill_11611",
+      :name "Audacity",
+      :image
+      "https://static.icy-veins.com/images/d3/x1_wizard_passive_audacity_large.png"}
+     {:id "passive-skill_11612",
+      :name "Evocation",
+      :image
+      "https://static.icy-veins.com/images/d3/wizard_passive_evocation_large.png"})},
+   :gear ()}),
  :necromancer
- ({:name "Command Skeletons Build with Inarius Set",
+ ({:id "build_11613",
+   :name "Command Skeletons Build with Inarius Set",
    :url
    "https://www.icy-veins.com/d3/necromancer-command-skeletons-build-with-inarius-set-patch-2-6-season-11",
+   :d3-class-name "Necromancer",
    :tier "Top Tier",
-   :id "build_26379"}
-  {:name "Corpse Lance Build with Trag'Oul Set",
+   :skills
+   {:active
+    ({:id "active-skill_11614",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Grim Scythe"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Cursed Scythe"}}
+     {:id "active-skill_11615",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Command Skeletons"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Frenzy"}}
+     {:id "active-skill_11616",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/p6_necro_frailty_large.png",
+       :name "Frailty"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Scent of Blood"}}
+     {:id "active-skill_11617",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/p6_necro_bloodrush_large.png",
+       :name "Blood Rush"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Metabolism"}}
+     {:id "active-skill_11618",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/p6_necro_raisedead_large.png",
+       :name "Skeletal Mage"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Skeleton Archer"}}
+     {:id "active-skill_11619",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/p6_necro_bonearmor_large.png",
+       :name "Bone Armor"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Dislocation"}}),
+    :passive
+    ({:id "passive-skill_11620",
+      :name "Overwhelming Essence",
+      :image
+      "https://static.icy-veins.com/images/d3/p6_necro_passive_maxessence_large.png"}
+     {:id "passive-skill_11621",
+      :name "Swift Harvesting",
+      :image
+      "https://static.icy-veins.com/images/d3/p6_necro_passive_builderattackspeed_large.png"}
+     {:id "passive-skill_11622",
+      :name "Extended Servitude",
+      :image
+      "https://static.icy-veins.com/images/d3/p6_necro_passive_puppetmaster_large.png"}
+     {:id "passive-skill_11623",
+      :name "Final Service",
+      :image
+      "https://static.icy-veins.com/images/d3/p6_necro_passive_cheatdeath_large.png"})},
+   :gear ()}
+  {:id "build_11624",
+   :name "Corpse Lance Build with Trag'Oul Set",
    :url
    "https://www.icy-veins.com/d3/necromancer-corpse-lance-build-with-trag-oul-set-patch-2-6-season-11",
+   :d3-class-name "Necromancer",
    :tier "Top Tier",
-   :id "build_26380"}
-  {:name "Bone Storm Build with Inarius Set",
+   :skills
+   {:active
+    ({:id "active-skill_11625",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Corpse Lance"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Blood Lance"}}
+     {:id "active-skill_11626",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Blood Rush"},
+      :rune {:image "https:", :name ""}}
+     {:id "active-skill_11627",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/p6_necro_devour_large.png",
+       :name "Devour"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Cannibalize "}}
+     {:id "active-skill_11628",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/p6_necro_decrepify_large.png",
+       :name "Decrepify"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Borrowed Time"}}
+     {:id "active-skill_11629",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/p6_necro_simulacrum_large.png",
+       :name "Simulacrum"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Reservoir"}}
+     {:id "active-skill_11630",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/p6_necro_landofthedead_large.png",
+       :name "Land of the Dead"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Frozen Lands"}}),
+    :passive
+    ({:id "passive-skill_11631",
+      :name "Stand Alone",
+      :image
+      "https://static.icy-veins.com/images/d3/p6_necro_passive_standalone_large.png"}
+     {:id "passive-skill_11632",
+      :name "Overwhelming Essence",
+      :image
+      "https://static.icy-veins.com/images/d3/p6_necro_passive_maxessence_large.png"}
+     {:id "passive-skill_11633",
+      :name "Blood is Power",
+      :image
+      "https://static.icy-veins.com/images/d3/p6_necro_passive_bloodispower_large.png"}
+     {:id "passive-skill_11634",
+      :name "Spreading Malediction",
+      :image
+      "https://static.icy-veins.com/images/d3/p6_necro_passive_cursedamagebonus_large.png"})},
+   :gear ()}
+  {:id "build_11635",
+   :name "Bone Storm Build with Inarius Set",
    :url
    "https://www.icy-veins.com/d3/necromancer-bone-storm-build-with-inarius-set-patch-2-6-season-11",
+   :d3-class-name "Necromancer",
    :tier "High Tier",
-   :id "build_26381"}
-  {:name "Skeletal Mages Build with Rathma and Jesseth Sets",
+   :skills
+   {:active
+    ({:id "active-skill_11636",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Grim Scythe"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Cursed Scythe"}}
+     {:id "active-skill_11637",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Blood Rush"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Potency"}}
+     {:id "active-skill_11638",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/p6_necro_decrepify_large.png",
+       :name "Decrepify"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Dizzying Curse"}}
+     {:id "active-skill_11639",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/p6_necro_bonearmor_large.png",
+       :name "Bone Armor"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Dislocation"}}
+     {:id "active-skill_11640",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/p6_necro_corpselance_large.png",
+       :name "Corpse Lance"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Brittle Touch"}}
+     {:id "active-skill_11641",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/p6_necro_landofthedead_large.png",
+       :name "Land of the Dead"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Frozen Lands"}}),
+    :passive
+    ({:id "passive-skill_11642",
+      :name "Stand Alone",
+      :image
+      "https://static.icy-veins.com/images/d3/p6_necro_passive_standalone_large.png"}
+     {:id "passive-skill_11643",
+      :name "Spreading Malediction",
+      :image
+      "https://static.icy-veins.com/images/d3/p6_necro_passive_cursedamagebonus_large.png"}
+     {:id "passive-skill_11644",
+      :name "Blood is Power",
+      :image
+      "https://static.icy-veins.com/images/d3/p6_necro_passive_bloodispower_large.png"}
+     {:id "passive-skill_11645",
+      :name "Overwhelming Essence",
+      :image
+      "https://static.icy-veins.com/images/d3/p6_necro_passive_maxessence_large.png"})},
+   :gear ()}
+  {:id "build_11646",
+   :name "Skeletal Mages Build with Rathma and Jesseth Sets",
    :url
    "https://www.icy-veins.com/d3/necromancer-skeletal-mages-build-with-rathma-and-jesseth-sets-patch-2-6-season-11",
+   :d3-class-name "Necromancer",
    :tier "High Tier",
-   :id "build_26382"}
-  {:name "Corpse Explosion Build with Inarius Set",
+   :skills
+   {:active
+    ({:id "active-skill_11647",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Bone Spikes"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Sudden Impact"}}
+     {:id "active-skill_11648",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Skeletal Mage"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Singularity"}}
+     {:id "active-skill_11649",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/p6_necro_devour_large.png",
+       :name "Devour"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Cannibalize "}}
+     {:id "active-skill_11650",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/p6_necro_landofthedead_large.png",
+       :name "Land of the Dead"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Frozen Lands"}}
+     {:id "active-skill_11651",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/p6_necro_commandskeletons_large.png",
+       :name "Command Skeletons"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Freezing Grasp"}}
+     {:id "active-skill_11652",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/p6_necro_decrepify_large.png",
+       :name "Decrepify"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Dizzying Curse"}}),
+    :passive
+    ({:id "passive-skill_11653",
+      :name "Extended Servitude",
+      :image
+      "https://static.icy-veins.com/images/d3/p6_necro_passive_puppetmaster_large.png"}
+     {:id "passive-skill_11654",
+      :name "Overwhelming Essence",
+      :image
+      "https://static.icy-veins.com/images/d3/p6_necro_passive_maxessence_large.png"}
+     {:id "passive-skill_11655",
+      :name "Spreading Malediction",
+      :image
+      "https://static.icy-veins.com/images/d3/p6_necro_passive_cursedamagebonus_large.png"}
+     {:id "passive-skill_11656",
+      :name "Life from Death",
+      :image
+      "https://static.icy-veins.com/images/d3/p6_necro_passive_healthglobesfromcorpseconsumption_large.png"})},
+   :gear ()}
+  {:id "build_11657",
+   :name "Corpse Explosion Build with Inarius Set",
    :url
    "https://www.icy-veins.com/d3/necromancer-corpse-explosion-build-with-inarius-set-patch-2-6-season-11",
+   :d3-class-name "Necromancer",
    :tier "Mid Tier",
-   :id "build_26383"}
-  {:name "Skeletal Mages Build With Trag'Oul and Jesseth Sets",
+   :skills
+   {:active
+    ({:id "active-skill_11658",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Grim Scythe"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/e.png",
+       :name "Cursed Scythe"}}
+     {:id "active-skill_11659",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Blood Rush"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Potency"}}
+     {:id "active-skill_11660",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/p6_necro_corpseexplosion_large.png",
+       :name "Corpse Explosion"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Close Quarters"}}
+     {:id "active-skill_11661",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/p6_necro_bonearmor_large.png",
+       :name "Bone Armor"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Dislocation"}}
+     {:id "active-skill_11662",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/p6_necro_bloodnova_large.png",
+       :name "Death Nova"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/d.png",
+       :name "Blight"}}
+     {:id "active-skill_11663",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/p6_necro_landofthedead_large.png",
+       :name "Land of the Dead"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Frozen Lands"}}),
+    :passive
+    ({:id "passive-skill_11664",
+      :name "Stand Alone",
+      :image
+      "https://static.icy-veins.com/images/d3/p6_necro_passive_standalone_large.png"}
+     {:id "passive-skill_11665",
+      :name "Spreading Malediction",
+      :image
+      "https://static.icy-veins.com/images/d3/p6_necro_passive_cursedamagebonus_large.png"}
+     {:id "passive-skill_11666",
+      :name "Rigor Mortis",
+      :image
+      "https://static.icy-veins.com/images/d3/p6_necro_passive_rigormortis_large.png"}
+     {:id "passive-skill_11667",
+      :name "Blood is Power",
+      :image
+      "https://static.icy-veins.com/images/d3/p6_necro_passive_bloodispower_large.png"})},
+   :gear ()}
+  {:id "build_11668",
+   :name "Skeletal Mages Build With Trag'Oul and Jesseth Sets",
    :url
    "https://www.icy-veins.com/d3/necromancer-skeletal-mages-build-with-trag-oul-and-jesseth-sets-patch-2-6-season-11",
+   :d3-class-name "Necromancer",
    :tier "Mid Tier",
-   :id "build_26384"})}
+   :skills
+   {:active
+    ({:id "active-skill_11669",
+      :button "Left Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_left_mouse.png",
+       :name "Skeletal Mage"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Life Support"}}
+     {:id "active-skill_11670",
+      :button "Right Mouse Button",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/slot_right_mouse.png",
+       :name "Command Skeletons"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Freezing Grasp"}}
+     {:id "active-skill_11671",
+      :button "1",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/p6_necro_devour_large.png",
+       :name "Devour"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/a.png",
+       :name "Cannibalize "}}
+     {:id "active-skill_11672",
+      :button "2",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/p6_necro_bonearmor_large.png",
+       :name "Bone Armor"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/c.png",
+       :name "Dislocation"}}
+     {:id "active-skill_11673",
+      :button "3",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/p6_necro_landofthedead_large.png",
+       :name "Land of the Dead"},
+      :rune
+      {:image "https://static.icy-veins.com/images/d3/b.png",
+       :name "Frozen Lands"}}
+     {:id "active-skill_11674",
+      :button "4",
+      :skill
+      {:image
+       "https://static.icy-veins.com/images/d3/p6_necro_bloodrush_large.png",
+       :name "Blood Rush"},
+      :rune {:image "https:", :name ""}}),
+    :passive
+    ({:id "passive-skill_11675",
+      :name "Blood for Blood",
+      :image
+      "https://static.icy-veins.com/images/d3/p6_necro_passive_healthglobesfreecast_large.png"}
+     {:id "passive-skill_11676",
+      :name "Extended Servitude",
+      :image
+      "https://static.icy-veins.com/images/d3/p6_necro_passive_puppetmaster_large.png"}
+     {:id "passive-skill_11677",
+      :name "Blood is Power",
+      :image
+      "https://static.icy-veins.com/images/d3/p6_necro_passive_bloodispower_large.png"}
+     {:id "passive-skill_11678",
+      :name "Dark Reaping",
+      :image
+      "https://static.icy-veins.com/images/d3/p6_necro_passive_scytheregenperkill_large.png"})},
+   :gear ()})}
