@@ -11,7 +11,7 @@
 (defn- get-class-build-list
   "Layout will have all nav-bar entries. The current class entry is the last one."
   [layout]
-  (last (html/select layout [:div.nav_content_entries])))
+  (first (take-last 2 (html/select layout [:div.nav_content_entries]))))
 
 (defn- get-build-name
   "Given the right <a> tag, get its content."

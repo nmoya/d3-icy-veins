@@ -8,6 +8,7 @@
                  [proto-repl "0.3.1"]
                  [camel-snake-kebab "0.4.0"]
                  [cheshire "5.7.1"]]
-  :main ^:skip-aot d3-icy-veins.core
+  :source-paths ["src" "dev"]
+  :main ^:skip-aot user
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})
