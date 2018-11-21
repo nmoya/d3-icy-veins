@@ -24,6 +24,11 @@
   [[layout]]
   (str "https:" (get-in layout [:attrs :src])))
 
+(defn get-layout-alt
+  "Variable layout was deconstructed from a list of a single <a> element."
+  [[layout]]
+  (-> layout :attrs :alt))
+
 (defn gen-id
   "Generate an unique ID for a structure"
   [prefix]

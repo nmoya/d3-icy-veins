@@ -45,18 +45,43 @@
    :image (utils/get-layout-src (html/select layout [:img]))})
 
 (defn- parse-active-skills [layout]
-  (map-indexed parse-active-skill layout))
+  (map-indexed parse-active-skill (html/select layout [:span.d3_build_active_skill])))
 
 (defn- parse-passive-skills [layout]
-  (map parse-passive-skill layout))
+  (map parse-passive-skill (html/select layout [:a.d3_build_passive_skill_link])))
+
+(defn- parse-gear-gem-cube [layout id-prefix descriptions]
+  (map-indexed (fn [idx gear-layout]
+                 {:id (utils/gen-id id-prefix)
+                  :image (utils/get-layout-src [gear-layout])
+                  :description (nth descriptions idx)
+                  :name (utils/get-layout-alt [gear-layout])})
+   layout))
 
 (defn- parse-build-info [layout]
-  {:skills
-    {:active
-      (take 6 (parse-active-skills (html/select layout [:span.d3_build_active_skill])))
-     :passive
-      (take 4 (parse-passive-skills (html/select layout [:a.d3_build_passive_skill_link])))}
-   :gear ()})
+  (let [title (utils/get-layout-content (html/select layout [:title]))
+        gear-gem-cube (html/select layout [:ul :> :li :> :span :> :img.d3_icon.d3_item])
+        last-gem (- (count gear-gem-cube) 3)
+        first-gem (- last-gem 3)]
+    (if-not (= 19 (count gear-gem-cube))
+      (do
+        (println (str "Failed to parse gear / gem / cube for build: " title))
+        (println "SKIPPING"))
+        ;(throw (Exception. (str "Failed to parse gear / gem / cube for build: " title))))
+      (let [gear (take first-gem gear-gem-cube)
+            gem (-> gear-gem-cube vec (subvec first-gem last-gem))
+            cube (take-last 3 gear-gem-cube)]
+        {:skills
+          {:active
+            (take 6 (parse-active-skills layout))
+           :passive
+            (take 4 (parse-passive-skills layout))}
+          :gear (parse-gear-gem-cube gear "gear_"[:helmet :shoulders :gloves
+                                                  :chest :belt :pants :boots
+                                                  :bracers :amulet :ring-1 :ring-2
+                                                  :weapon :offhand])
+          :gem (parse-gear-gem-cube gem "gem_"[:gem-1 :gem-2 :gem-3])
+          :cube (parse-gear-gem-cube cube "cube_"[:weapon :armor :jewelry])}))))
 
 (defn- get-build-details
   "Given a build structure, retrieve its details."

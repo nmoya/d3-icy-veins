@@ -7,3 +7,4 @@
 
 (defn reset [] (repl/refresh))
 (defn get-all-builds [] (builds/get-all))
+(defn dump-all-builds [] (builds/get-all true))
