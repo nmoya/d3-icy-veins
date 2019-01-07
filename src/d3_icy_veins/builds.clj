@@ -51,21 +51,41 @@
   (map parse-passive-skill (html/select layout [:a.d3_build_passive_skill_link])))
 
 (defn- parse-gear-gem-cube [layout id-prefix descriptions]
-  (map-indexed (fn [idx gear-layout]
-                 {:id (utils/gen-id id-prefix)
-                  :image (utils/get-layout-src [gear-layout])
+  (map-indexed (fn [idx [gear-layout description-iframe]]
+                 {:image (utils/get-layout-src [gear-layout])
+                  :description-iframe description-iframe
                   :description (nth descriptions idx)
                   :name (utils/get-layout-alt [gear-layout])})
    layout))
 
+(defn- d3-item-size-valid? [size]
+  (or (= size 18)
+      (= size 19)))
+
+(defn- gear-names [size]
+  (let [gear-names [:helmet :shoulders :gloves
+                    :chest :belt :pants :boots
+                    :bracers :amulet :ring-1 :ring-2
+                    :weapon]]
+    (if (= size 18)
+      gear-names
+      (conj gear-names :offhand))))
+
+(defn- build-gear-gem-cube-list [layout]
+  (let [gear-gem-cube (html/select layout [:ul :> :li :> :span :> :img.d3_icon.d3_item])
+        gear-gem-cube-images (html/select layout [:ul :> :li :> :span.d3_icon_span :> :a])
+        images (map #(get-in % [:attrs :href]) gear-gem-cube-images)]
+    (map vector gear-gem-cube images)))
+
 (defn- parse-build-info [layout]
   (let [title (utils/get-layout-content (html/select layout [:title]))
-        gear-gem-cube (html/select layout [:ul :> :li :> :span :> :img.d3_icon.d3_item])
+        gear-gem-cube (build-gear-gem-cube-list layout)
         last-gem (- (count gear-gem-cube) 3)
         first-gem (- last-gem 3)]
-    (if-not (= 19 (count gear-gem-cube))
+    (if-not (d3-item-size-valid? (count gear-gem-cube))
       (do
         (println (str "Failed to parse gear / gem / cube for build: " title))
+        (println (count gear-gem-cube))
         (println "SKIPPING"))
         ;(throw (Exception. (str "Failed to parse gear / gem / cube for build: " title))))
       (let [gear (take first-gem gear-gem-cube)
@@ -76,10 +96,7 @@
             (take 6 (parse-active-skills layout))
            :passive
             (take 4 (parse-passive-skills layout))}
-          :gear (parse-gear-gem-cube gear "gear_"[:helmet :shoulders :gloves
-                                                  :chest :belt :pants :boots
-                                                  :bracers :amulet :ring-1 :ring-2
-                                                  :weapon :offhand])
+          :gear (parse-gear-gem-cube gear "gear_" (gear-names (count gear-gem-cube)))
           :gem (parse-gear-gem-cube gem "gem_"[:gem-1 :gem-2 :gem-3])
           :cube (parse-gear-gem-cube cube "cube_"[:weapon :armor :jewelry])}))))
 
@@ -116,7 +133,7 @@
   (reduce-kv
     (fn [acc key d3-class]
       (assoc acc key (retrieve-builds-by-class d3-class)))
-    ; {} {:demon-hunter {:name "Demon Hunter"}}))
+    ;{} {:barbarian {:name "Barbarian"}}))
     {} utils/d3-classes))
 
 (defn get-all
