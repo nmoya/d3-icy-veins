@@ -110,6 +110,7 @@
 (defn- create-build-details
   "Creates a build structure from a layout"
   [d3-class layout]
+  (println (:name d3-class))
   (get-build-details
     {:id (utils/gen-id "build_")
      :name (get-build-name (html/select layout [:a]))
@@ -130,11 +131,10 @@
 (defn- retrieve-builds-all-classes
   "Iterates over utils/classes to parse every class' build."
   []
-  (reduce-kv
-    (fn [acc key d3-class]
-      (assoc acc key (retrieve-builds-by-class d3-class)))
-    ;{} {:barbarian {:name "Barbarian"}}))
-    {} utils/d3-classes))
+  (map
+    (fn [d3-class]
+      {:name (:name d3-class) :builds (retrieve-builds-by-class d3-class)})
+    utils/d3-classes))
 
 (defn get-all
   "Public builds interface. Fetch the builds for all classes. Can save on disk."
