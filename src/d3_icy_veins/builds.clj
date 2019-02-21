@@ -1,7 +1,10 @@
 (ns d3-icy-veins.builds
   (:require [camel-snake-kebab.core :as csk]
             [net.cgrand.enlive-html :as html]
-            [d3-icy-veins.utils :as utils]))
+            [d3-icy-veins.utils :as utils]
+            [clojure.string :as string]))
+
+(def ^:private blizz-base-img "https://blzmedia-a.akamaihd.net/d3/icons/items/large/")
 
 (defn- create-class-builds-url
   "Given a class name, append builds, convert to kebab notation and append to base-url"
@@ -52,10 +55,12 @@
 
 (defn- parse-gear-gem-cube [layout id-prefix descriptions]
   (map-indexed (fn [idx [gear-layout description-iframe]]
-                 {:image (utils/get-layout-src [gear-layout])
-                  :description-iframe description-iframe
-                  :description (nth descriptions idx)
-                  :name (utils/get-layout-alt [gear-layout])})
+                 (let [low-res (utils/get-layout-src [gear-layout])
+                       name (string/split low-res #"/")]
+                   {:image (str blizz-base-img (last name))
+                    :description-iframe description-iframe
+                    :description (nth descriptions idx)
+                    :name (utils/get-layout-alt [gear-layout])}))
    layout))
 
 (defn- d3-item-size-valid? [size]
