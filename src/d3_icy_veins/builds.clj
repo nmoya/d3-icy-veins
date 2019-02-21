@@ -136,6 +136,10 @@
       {:name (:name d3-class) :builds (retrieve-builds-by-class d3-class)})
     utils/d3-classes))
 
+(defn get-class-build
+  [d3-class]
+  (retrieve-builds-by-class {:name d3-class}))
+
 (defn get-all
   "Public builds interface. Fetch the builds for all classes. Can save on disk."
   ([] (get-all false))
