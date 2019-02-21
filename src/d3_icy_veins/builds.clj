@@ -53,14 +53,21 @@
 (defn- parse-passive-skills [layout]
   (map parse-passive-skill (html/select layout [:a.d3_build_passive_skill_link])))
 
+(defn- transform-gear-item [gear-item]
+  (let [item (:item gear-item)
+        iframe (:iframe gear-item)
+        low-res (utils/get-layout-src [item])
+        name (string/split low-res #"/")]
+    {:name (utils/get-layout-alt [item])
+     :image (str blizz-base-img (last name))
+     :iframe iframe}))
+
 (defn- parse-gear-gem-cube [layout id-prefix descriptions]
-  (map-indexed (fn [idx [gear-layout description-iframe]]
-                 (let [low-res (utils/get-layout-src [gear-layout])
-                       name (string/split low-res #"/")]
-                   {:image (str blizz-base-img (last name))
-                    :description-iframe description-iframe
-                    :description (nth descriptions idx)
-                    :name (utils/get-layout-alt [gear-layout])}))
+  (map-indexed (fn [idx gear]
+                 (let []
+                   {:description (nth descriptions idx)
+                    :main (transform-gear-item (:main gear))
+                    :alternatives (map transform-gear-item (:alternatives gear))}))
    layout))
 
 (defn- d3-item-size-valid? [size]
@@ -76,11 +83,42 @@
       gear-names
       (conj gear-names :offhand))))
 
+(defn- gear-gem-cube? [content]
+  (let [gear-gem-cube ["Helm: "
+                       "Shoulders: "
+                       "Gloves: "
+                       "Chest: "
+                       "Belt: "
+                       "Pants: "
+                       "Boots: "
+                       "Bracers: "
+                       "Amulet: "
+                       "Ring 1: "
+                       "Ring 2: "
+                       "Weapon: "
+                       "Weapon 1: "
+                       "Weapon 2: "
+                       "Offhand: "
+                       "Legendary Gem 1: "
+                       "Legendary Gem 2: "
+                       "Legendary Gem 3: "
+                       "Weapon Slot: "
+                       "Armor Slot: "
+                       "Jewelry Slot: "]]
+    (some #(= content %) gear-gem-cube)))
+
+(defn- transform-gear [gear-item-list]
+  (let [items (html/select gear-item-list [:span :> :img.d3_icon.d3_item])
+        iframes (html/select gear-item-list [:span.d3_icon_span :> :a])
+        iframes-urls (map #(get-in % [:attrs :href]) iframes)
+        items-iframes (map (fn [item iframe] {:item item :iframe iframe}) items iframes-urls)]
+    {:main (first items-iframes)
+     :alternatives (rest items-iframes)}))
+
 (defn- build-gear-gem-cube-list [layout]
-  (let [gear-gem-cube (html/select layout [:ul :> :li :> :span :> :img.d3_icon.d3_item])
-        gear-gem-cube-images (html/select layout [:ul :> :li :> :span.d3_icon_span :> :a])
-        images (map #(get-in % [:attrs :href]) gear-gem-cube-images)]
-    (map vector gear-gem-cube images)))
+  (let [all-items (html/select layout [:ul :> :li])
+        relevant-items (filter #(gear-gem-cube? (-> % :content first)) all-items)]
+    (map transform-gear relevant-items)))
 
 (defn- parse-build-info [layout]
   (let [title (utils/get-layout-content (html/select layout [:title]))
@@ -89,9 +127,7 @@
         first-gem (- last-gem 3)]
     (if-not (d3-item-size-valid? (count gear-gem-cube))
       (do
-        (println (str "Failed to parse gear / gem / cube for build: " title))
-        (println (count gear-gem-cube))
-        (println "SKIPPING"))
+        (println (str "Failed: " title)))
         ;(throw (Exception. (str "Failed to parse gear / gem / cube for build: " title))))
       (let [gear (take first-gem gear-gem-cube)
             gem (-> gear-gem-cube vec (subvec first-gem last-gem))

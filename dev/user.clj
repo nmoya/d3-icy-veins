@@ -8,3 +8,4 @@
 (defn reset [] (repl/refresh))
 (defn get-all-builds [] (builds/get-all))
 (defn dump-all-builds [] (builds/get-all true))
+(defn get-class-build [name] (builds/get-class-build name))
