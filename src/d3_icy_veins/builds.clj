@@ -151,7 +151,6 @@
   ([save-to-file]
    (let [builds-map (retrieve-builds-all-classes)]
     (when save-to-file
-      (utils/save-map-to-edn "resources/builds.edn" builds-map)
       (utils/save-map-to-json "resources/builds.json" builds-map)
       (utils/save-map-to-json-minified "resources/builds.min.json" builds-map))
     builds-map)))
