@@ -139,7 +139,7 @@
             (take 4 (parse-passive-skills layout))}
           :gear (parse-gear-gem-cube gear "gear_" (gear-names (count gear-gem-cube)))
           :gem (parse-gear-gem-cube gem "gem_"[:gem :gem :gem])
-          :cube (parse-gear-gem-cube cube "cube_"[:weapon :armor :jewelry])}))))
+          :cube (parse-gear-gem-cube cube "cube_"[:cube-weapon :cube-armor :cube-jewelry])}))))
 
 (defn- get-build-details
   "Given a build structure, retrieve its details."
