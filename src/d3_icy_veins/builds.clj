@@ -77,7 +77,7 @@
 (defn- gear-names [size]
   (let [gear-names [:helmet :shoulders :gloves
                     :chest :belt :pants :boots
-                    :bracers :amulet :ring-1 :ring-2
+                    :bracers :amulet :ring :ring
                     :weapon]]
     (if (= size 18)
       gear-names
@@ -138,7 +138,7 @@
            :passive
             (take 4 (parse-passive-skills layout))}
           :gear (parse-gear-gem-cube gear "gear_" (gear-names (count gear-gem-cube)))
-          :gem (parse-gear-gem-cube gem "gem_"[:gem-1 :gem-2 :gem-3])
+          :gem (parse-gear-gem-cube gem "gem_"[:gem :gem :gem])
           :cube (parse-gear-gem-cube cube "cube_"[:weapon :armor :jewelry])}))))
 
 (defn- get-build-details
