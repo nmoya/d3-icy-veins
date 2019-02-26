@@ -31,13 +31,17 @@
   [layout]
   (utils/get-layout-url layout))
 
+(defn- get-active-skill-image [idx layout]
+  (let [img-fn (if (< idx 2) second first)]
+    (img-fn (html/select layout [:img]))))
+
 (defn- parse-active-skill [idx layout]
   {:id (utils/gen-id "active-skill_")
    :button (cond
               (= idx 0) "Left Mouse Button"
               (= idx 1) "Right Mouse Button"
               :else (utils/get-layout-content (html/select layout [:span.d3_build_active_skill_slot])))
-   :skill {:image (utils/get-layout-src [(first (html/select layout [:img]))])
+   :skill {:image (utils/get-layout-src [(get-active-skill-image idx layout)])
            :name (utils/get-layout-content (html/select layout [:a.d3_active_skill]))}
    :rune {:image (utils/get-layout-src (html/select layout [:img.d3_icon]))
           :name (utils/get-layout-content (html/select layout [:span.d3_rune]))}})
